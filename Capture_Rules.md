@@ -107,9 +107,9 @@ The following attribute information applies to all feature classes.  Additional 
 #### Building Footprint Diagrams
 #####<p align="center">**Calculating HEIGHT_ROOF**</p>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287639/6f62b2fe-fb21-11e5-9515-35784cf3d534.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298257/eb233960-fb51-11e5-9db6-a31c1fa23cff.png" /></p>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14287724/e7b77b72-fb21-11e5-8b08-4a83218c3b0e.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298243/d95f054c-fb51-11e5-9f00-0a41b3ac3ff3.png" /></p>
 
 <br>
 # Curb
