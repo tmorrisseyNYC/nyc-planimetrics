@@ -1,7 +1,7 @@
 **Introduction**<br>
 A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
 <br><br>
-The source imagery was captured on the following dates: <br>•Manhattan - June 24, 2014<br>The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
+The source imagery was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
 
 **Table of contents**<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
@@ -36,7 +36,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Boardwalks along beachfront|
 | **Capture Notes** | Maintain beach outline/shoreline |
 | **Features Excluded** | n/a | 
-| Map |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14297263/f2ae710a-fb4b-11e5-9234-3ebd2c2e6bce.png" /></p> |
 | Photo |  |
 
 <br>
@@ -55,7 +55,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Collected all buildings with well-defined walls and roofs that are >400 sq. feet and taller than 12 feet.<br><br>Buildings with <12 feet height but with BIN were captured.<br><br>Buildings with BIN but <400 sq. feet were captured.<br><br>Buildings with flat roofs were captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs were captured on the building footprint.<br><br>Carports, when attached to main building, were included in the outline. Do not collect interior divisions within buildings were not captured (used existing building layer and BIN as guide). |
 | **Capture Notes** | Use parcel data and BIN as guidance for collection. Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines. Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications. If an existing building is going to split into several new buildings, keep the original BIN in only one of the new buildings (ideally the largest) and assign a million BIN to the rest. Do not duplicate BINS.<br><br>Building footprints that are adjacent, have different BINS and are on one tax lot should be flagged and verified during update.<br><br>If a building is demolished (i.e., if the building has a different shape), the BIN is also deleted and is not to be used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location and are added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building has been constructed in the new orthos please collect building, transfer attributes from triangle to building, and delete triangle. If no new building is visible on the orthos, please leave triangles alone (and they will be exceptions in the QC model). |
 | **Features Excluded** | The following features are not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft<br>• awnings, scaffolds, or sidewalk sheds. | 
-| Map |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14296759/a223cf70-fb49-11e5-96ec-d4c3dbc63a72.png" /></p> |
 | Photo |  |
 
 <br>
@@ -122,7 +122,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
 | **Capture Notes** |  |
 | **Features Excluded** | Curbs inside Parking lots will not be captured. | 
-| Map |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14297348/4e4baae6-fb4c-11e5-91f1-6a6a99777d53.png" /></p> |
 | Photo |  |
 
 <br>
@@ -201,5 +201,5 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
 | **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
-| Map |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14297024/dce13606-fb4a-11e5-8655-bd62b2508933.png" /></p> |
 | Photo |  |
