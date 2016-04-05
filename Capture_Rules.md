@@ -102,6 +102,22 @@ The following attribute information applies to all feature classes.  Additional 
 | <p align="center">**Attribute**</p> | <p align="center">Description</p> |
 | **HEIGHT_ROOF** | Building roof height is calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see BUILDING ELEVATION in the ELEVATION Feature Class). See diagrams below. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
+| **NAME** | pending |
+| **BIN** | pending |
+| **CONSTURCTION_YEAR** | pending |
+| **GEOM_SOURCE** | pending |
+| **LAST_MODIFY_BY** | pending |
+| **LAST_MODIFY_DATE** | pending |
+| **LAST_STATUS_TYPE** | pending |
+| **DOITT_ID** | pending |
+| **LAST_STATUS_DATE** | pending |
+| **HEIGHT_ROOF** | pending |
+| **BIN** | pending |
+| **BIN** | pending |
+| **BIN** | pending |
+| **BIN** | pending |
+| **BIN** | pending |
+| **BIN** | pending |
 
 <br>
 #### Building Footprint Diagrams
