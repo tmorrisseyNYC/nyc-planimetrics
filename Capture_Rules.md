@@ -67,7 +67,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | CAll garages were captured, regardless of size.  To be considered a garage, the structure must have a driveway (paved or unpaved) for road  access, and be able to store one or more cars. |
 | **Capture Notes** | Special care should be applied to ensure sheds are not confused with garages. In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’<br><br>Use Parcel layer to place garages within parcel or at parcel boundary – check for special cases where parcel boundary clearly crosses garage. In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature.<br><br>In cases where there is no BIN for the garage, a “dummy” BIN will be assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
 | **Features Excluded** | Small tool or storage sheds in backyards which have no visible car access were not captured | 
-| **Feature View** |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14299040/41289f0e-fb56-11e5-8281-4a2c35073a44.png" /></p> |
 | **Photo** |  |
 
 <br>
@@ -79,7 +79,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Buildings that are under construction and have outside walls that clearly indicate the shape of the building were captured. |
 | **Capture Notes** |  |
 | **Features Excluded** | Buildings were not captured when only the foundation was visible or building was being destroyed. | 
-| **Feature View** |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298827/1767f206-fb55-11e5-985a-51f3679c00cf.png" /></p> |
 | **Photo** |  |
 
 <br>
@@ -91,7 +91,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Elevated walkways that connect buildings were captured as separate building polygons and coded as “Skybridge”. |
 | **Capture Notes** | Skybridges will be populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned a “dummy” million BIN during capture. |
 | **Features Excluded** |  | 
-| **Feature View** |  |
+| **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298736/7a7802f6-fb54-11e5-8168-ebae9ac78f7e.png" /></p> |
 | **Photo** |  |
 
 <br>
