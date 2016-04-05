@@ -104,20 +104,18 @@ The following attribute information applies to all feature classes.  Additional 
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 | **NAME** | pending |
 | **BIN** | pending |
-| **CONSTURCTION_YEAR** | pending |
+| **CONSTURCTION_YEAR** | Year Built. |
 | **GEOM_SOURCE** | pending |
 | **LAST_MODIFY_BY** | pending |
 | **LAST_MODIFY_DATE** | pending |
 | **LAST_STATUS_TYPE** | pending |
 | **DOITT_ID** | pending |
 | **LAST_STATUS_DATE** | pending |
-| **HEIGHT_ROOF** | pending |
-| **BIN** | pending |
-| **BIN** | pending |
-| **BIN** | pending |
-| **BIN** | pending |
-| **BIN** | pending |
-| **BIN** | pending |
+| **HEIGHT_ROOF** | Elevation at Top of Roof. |
+| **DOB_JOB_NUM** | pending |
+| **NUM_FLOORS** | Number of Floors. |
+| **BUILT_CODE** | pending |
+| **COMMENT** | pending |
 
 <br>
 #### Building Footprint Diagrams
