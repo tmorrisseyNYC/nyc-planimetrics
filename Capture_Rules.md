@@ -3,7 +3,8 @@ A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality o
 <br><br>
 The source imagery was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
 
-####Table of Contents<br>
+####Table of Contents
+
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Boardwalk](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
@@ -231,4 +232,4 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
 | **Photo** |  |<br><br>
-[Back to Table of Contents](https://github.com/git/git/blob/master/Capture_Rules.md#6)
+[Back to Table of Contents](#table-of-contents)
