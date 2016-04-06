@@ -3,7 +3,7 @@ A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality o
 <br><br>
 The source imagery was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
 
-**Table of contents**<br>
+####Table of Contents<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Boardwalk](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
@@ -11,8 +11,9 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 &nbsp;&nbsp;&nbsp;&nbsp;[Curb](#curb)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Elevation](#elevation)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING ELEVATION](#subtype-building-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: WATER ELEVATION](#subtype-water-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SPOT ELEVATION](#subtype-spot-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BRIDGE ELEVATION](#subtype-bridge-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)
 
+<br>
 # General Attribute Information
 
 The following attribute information applies to all feature classes.  Additional attributes specific to a given feature class are listed within the details for that feature class.
@@ -23,7 +24,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Source_ID** | Unique feature Identification Number |
 | **Feature_Code** | Indicates the type of feature  |
 | **Sub_Feature_Code** | (where applicable) indicates a subset of features within a given “Feature_Code” set  |
-| **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |
+| **Status** | Field indicating the feature status as it fits into one of the following categories:<br>a) NEW. A feature captured for the first time during the 2014 planimetrics update project.<br>b) UPDATED. The feature existed previously but has been updated during the 2014 planimetrics update project.<br>c) UNCHANGED. The feature is unchanged from the source planimetrics database. |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Boardwalk
@@ -37,7 +39,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Maintain beach outline/shoreline |
 | **Features Excluded** | n/a | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298093/f0be9c12-fb50-11e5-865c-85d17df0f4ca.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Building Footprints
@@ -45,7 +48,6 @@ The following attribute information applies to all feature classes.  Additional 
 **Type: Polygon**
 
 **Includes the following structures:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
-
 
 ### Subtype: BUILDING
 
@@ -56,7 +58,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Use parcel data and BIN as guidance for collection. Where the parcel data indicates that a building should be two or more geometries AND there is NO physical indication, split the building using the parcel lines. Where the parcel data indicates that a building should be two or more geometries AND there is a physical indication, split the building using the physical indications. If an existing building is going to split into several new buildings, keep the original BIN in only one of the new buildings (ideally the largest) and assign a million BIN to the rest. Do not duplicate BINS.<br><br>Building footprints that are adjacent, have different BINS and are on one tax lot should be flagged and verified during update.<br><br>If a building is demolished (i.e., if the building has a different shape), the BIN is also deleted and is not to be used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location and are added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building has been constructed in the new orthos please collect building, transfer attributes from triangle to building, and delete triangle. If no new building is visible on the orthos, please leave triangles alone (and they will be exceptions in the QC model). |
 | **Features Excluded** | The following features are not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft<br>• awnings, scaffolds, or sidewalk sheds. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298164/58700896-fb51-11e5-929f-d0fe4a8c6b7a.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: GARAGE
@@ -68,7 +71,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Special care should be applied to ensure sheds are not confused with garages. In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’<br><br>Use Parcel layer to place garages within parcel or at parcel boundary – check for special cases where parcel boundary clearly crosses garage. In these cases, either split the garage using physical features, or use the property line where there is no distinguishing physical feature.<br><br>In cases where there is no BIN for the garage, a “dummy” BIN will be assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
 | **Features Excluded** | Small tool or storage sheds in backyards which have no visible car access were not captured | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14299040/41289f0e-fb56-11e5-8281-4a2c35073a44.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: BUILDING U/C *(Building under Construction)*
@@ -80,7 +84,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** |  |
 | **Features Excluded** | Buildings were not captured when only the foundation was visible or building was being destroyed. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298827/1767f206-fb55-11e5-985a-51f3679c00cf.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: SKYBRIDGE
@@ -92,7 +97,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Skybridges will be populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned a “dummy” million BIN during capture. |
 | **Features Excluded** |  | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298736/7a7802f6-fb54-11e5-8168-ebae9ac78f7e.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 #### Building Footprint Attributes
@@ -115,7 +121,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **DOB_JOB_NUM** | pending |
 | **NUM_FLOORS** | Number of Floors. |
 | **BUILT_CODE** | pending |
-| **COMMENT** | pending |
+| **COMMENT** | pending |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 #### Building Footprint Diagrams
@@ -124,6 +131,9 @@ The following attribute information applies to all feature classes.  Additional 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298257/eb233960-fb51-11e5-9db6-a31c1fa23cff.png" /></p>
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298243/d95f054c-fb51-11e5-9f00-0a41b3ac3ff3.png" /></p>
+
+<br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Curb
@@ -137,7 +147,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** |  |
 | **Features Excluded** | Curbs inside Parking lots will not be captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298033/959a97b4-fb50-11e5-9f82-d58b82e4516a.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Elevation
@@ -145,7 +156,6 @@ The following attribute information applies to all feature classes.  Additional 
 **Type: Point**
 
 **Includes the following structures:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
-
 
 <br>
 ### Subtype: BUILDING ELEVATION
@@ -157,7 +167,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Elevation of the highest portion of the roof of a building, excluding antennas and roof fixtures such as air conditioning (AC), elevator shafts, chimneys, etc.<br><br>Elevation value will be transferred to building outline to calculate the building height attribute. |
 | **Features Excluded** |  | 
 | **Feature View** |  |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: WATER ELEVATION
@@ -169,7 +180,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** |  |
 | **Features Excluded** |  | 
 | **Feature View** |  |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: SPOT ELEVATION
@@ -181,7 +193,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | In areas where the PAVEMENTEDGE has been updated, any existing SPOT elevations will be updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the CL, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline and all of Interior Sidewalk Centerline.  Spot elevation will not be added to a CSCL if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
 | **Features Excluded** | Spot elevations were not be captured on a CSCL if no roadbed exists | 
 | **Feature View** |  |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 ### Subtype: BRIDGE ELEVATION
@@ -193,16 +206,17 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | This is a subset of spot elevations. Elevation points were captured at the beginning, mid-point, end, and at 200’ spacing of the visible deck of bridges and overpasses. |
 | **Features Excluded** | Elevation points were not collected for pedestrian/bike bridges. | 
 | **Feature View** |  |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
+<br><br>
 
-
-<br>
 #### Elevation Attributes
 
 |     |     |
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">Description</p> |
 | **Elevation** | Field measuring surface elevation above sea level (in feet) |
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Plaza
@@ -216,4 +230,5 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
-| **Photo** |  |
+| **Photo** |  |<br><br>
+[Back to Table of Contents](#table-of-contents)
