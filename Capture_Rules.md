@@ -222,7 +222,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">Description</p> |
 | **Elevation** | Field measuring surface elevation above sea level (in feet) |<br><br>
-[Back to Table of Contents](#table-of-contents)
+[Table of Contents](#table-of-contents)
 
 <br>
 # Plaza
@@ -237,4 +237,4 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
 | **Photo** |  |<br><br>
-[Back to Table of Contents](#table-of-contents)
+[Table of Contents](#table-of-contents)
