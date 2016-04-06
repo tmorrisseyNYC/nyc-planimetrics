@@ -1,4 +1,4 @@
-**Introduction**<br>
+####Introduction<br>
 A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
 <br><br>
 The source imagery was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
