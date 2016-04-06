@@ -1,7 +1,6 @@
 ###<p align="center">**NYC Planimetric Data Descriptions** </p>
 #####<p align="center">**NYC DoITT, 2016** </p>
 
-<br>
 ####Purpose<br>
 The ensuing document provides a summary of each planimetric feature class, including the parameters applied to collect individual features using the latest aerial imagery.
 
