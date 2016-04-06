@@ -2,7 +2,7 @@
 #####<p align="center">**NYC DoITT, 2016** </p>
 
 ####Purpose<br>
-The ensuing document provides a summary of each planimetric feature class, including the parameters applied to collect individual features using the latest aerial imagery.
+This document provides a summary of each planimetric feature class, including the parameters applied to collect individual features using the latest aerial imagery.
 
 ####Introduction<br>
 A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
