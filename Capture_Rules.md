@@ -5,7 +5,7 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 
 ####Table of Contents
 
-&nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#general-attribute-information)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Boardwalk](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
