@@ -61,6 +61,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Includes the following structures:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
 
+<br>
 ### Subtype: BUILDING
 
 |     |     |
