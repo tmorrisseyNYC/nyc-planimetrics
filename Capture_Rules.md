@@ -195,9 +195,9 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline.   Elevation points were placed in the center of the roadbed (coincident with CSCL), captured at beginning, mid-point, end, and at 200’ spacing of the visible roadbed. |
-| **Capture Notes** | In areas where the PAVEMENTEDGE has been updated, any existing SPOT elevations were updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the CL, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline and all of Interior Sidewalk Centerline.  Spot elevation were not added to a CSCL if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
-| **Features Excluded** | Spot elevations were not be captured on a CSCL if no roadbed exists. | 
+| **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline feature classes.   Elevation points were placed in the center of the roadbed (coincident with CSCL features), captured at beginning, mid-point, end, and at 200’ spacing of the visible roadbed. |
+| **Capture Notes** | In areas where the PAVEMENT_EDGE feature class has been updated, any existing Spot elevations were updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the centerline, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline features class and all of the Interior Sidewalk Centerline feature class.  Spot elevation were not added to a CSCL feature if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
+| **Features Excluded** | Spot elevations were not be captured on a CSCL feature if no roadbed exists. | 
 | **Feature View** |  |
 | **Photo** |  |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -233,7 +233,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery. |
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
-| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
+| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas are partitioned from medians and / or sidewalks when adjacent to such features. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
 | **Photo** |  |<br><br>
