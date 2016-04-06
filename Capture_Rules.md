@@ -208,15 +208,15 @@ The following attribute information applies to all feature classes.  Additional 
 | **Feature View** |  |
 | **Photo** |  |<br><br>
 [Back to Table of Contents](#table-of-contents)
-<br><br>
 
+<br>
 #### Elevation Attributes
 
 |     |     |
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">Description</p> |
-| **Elevation** | Field measuring surface elevation above sea level (in feet) |
-[Back to Table of Contents](##table-of-contents)
+| **Elevation** | Field measuring surface elevation above sea level (in feet) |<br><br>
+[Back to Table of Contents](#table-of-contents)
 
 <br>
 # Plaza
