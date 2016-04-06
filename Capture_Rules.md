@@ -86,7 +86,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery.<br><br>The existing DoITT building database was used for reference and for BIN values. |
-| **Features Captured** | Buildings that were under construction in the imager and had outside walls that clearly indicated the shape of the building were captured. |
+| **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured. |
 | **Capture Notes** |  |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298827/1767f206-fb55-11e5-985a-51f3679c00cf.png" /></p> |
