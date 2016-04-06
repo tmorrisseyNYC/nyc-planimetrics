@@ -6,6 +6,7 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 ####Table of Contents
 
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#general-attribute-information)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Boardwalk](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING](#subtype-building)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: GARAGE](#subtype-garage)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING U/C (Building Under Construction](#subtype-building-uc-building-under-construction)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SKYBRIDGE](#subtype-skybridge)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Attributes](#building-footprint-attributes)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Diagrams](#building-footprint-diagrams)<br>
@@ -13,6 +14,10 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 &nbsp;&nbsp;&nbsp;&nbsp;[Elevation](#elevation)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING ELEVATION](#subtype-building-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: WATER ELEVATION](#subtype-water-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SPOT ELEVATION](#subtype-spot-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BRIDGE ELEVATION](#subtype-bridge-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)
+
+<br>
+# Imagery and Data Specifications
+Digital planimetrics were derived using the imagery products delivered with the 2014 New York Statewide Flyover (see Introduction for specific flight dates), which includes raw imagery collected to support the generation of 0.5 Ft Ground Sample Distance (GSD) natural color imagery. The images were captured with 80% forward lap and side lap to support 1”=100’ mapping and meet the distortion free requirements within New York City. Planimetrics are developed to meet American Society for Photogrammetry and Remote Sensing (ASPRS) Class 1 (one) horizontal mapping standards and ASPRS vertical Class 2 (two) accuracy specifications. Planimetrics are delivered via an ESRI geodatabase in New York State Plane Coordinates, Long Island East Zone, NAD83, US foot.
 
 <br>
 # General Attribute Information
@@ -232,4 +237,4 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
 | **Photo** |  |<br><br>
-[Back to Table of Contents](https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
