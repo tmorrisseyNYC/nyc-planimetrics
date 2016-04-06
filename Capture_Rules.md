@@ -203,7 +203,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline feature classes.   Elevation points were placed in the center of the roadbed (coincident with CSCL features). These points were captured at the beginning, mid-point, and end of CSCL features, and at 200’ spacing of the visible roadbed. |
+| **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in CSCL Centerline and all Interior Sidewalk Centerline feature classes.  Elevation points were placed in the center of the roadbed (coincident with CSCL features).  These points were captured at the beginning, middle, and end of length of visible roadbed.  Additional elevation points were added at 200’ spacing when the distance between the beginning, middle, or end was greater than 200 linear feet. |
 | **Capture Notes** | In areas where the PAVEMENT_EDGE feature class has been updated, any existing Spot elevations were updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the centerline, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in CSCL Centerline features class and all of the Interior Sidewalk Centerline feature class.  Spot elevation were not added to a CSCL feature if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
 | **Features Excluded** | Spot elevations were not be captured on a CSCL feature if no roadbed exists. | 
 | **Feature View** |  |
@@ -217,7 +217,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** |  |
-| **Capture Notes** | This is a subset of spot elevations.  These points were captured at the beginning, mid-point, and end of CSCL features, and at 200’ spacing of bridges and overpasses. |
+| **Capture Notes** | This is a subset of spot elevations.  These points were captured at the beginning, middle, and end of length of visible bridges and overpasses.  Additional elevation points were added at 200’ spacing when the distance between the beginning, middle, or end was greater than 200 linear feet. |
 | **Features Excluded** | Elevation points were not collected for pedestrian/bike bridges. | 
 | **Feature View** |  |
 | **Photo** |  |<br><br>
