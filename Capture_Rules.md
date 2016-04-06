@@ -111,7 +111,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| <p align="center">**Attribute**</p> | <p align="center">Description</p> |
+| <p align="center">**Attribute**</p> | <p align="center">**Description**</p> |
 | **HEIGHT_ROOF** | Building roof height was calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see BUILDING ELEVATION in the ELEVATION Feature Class). See diagrams below. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 | **NAME** | pending |
@@ -220,7 +220,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| <p align="center">**Attribute**</p> | <p align="center">Description</p> |
+| <p align="center">**Attribute**</p> | <p align="center">**Description**</p> |
 | **Elevation** | Field measuring surface elevation above sea level (in feet) |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
