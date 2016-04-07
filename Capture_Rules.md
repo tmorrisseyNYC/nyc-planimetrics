@@ -15,10 +15,19 @@ The source imagery was captured on the following dates: <br>• Manhattan - June
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Boardwalk](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Building Footprints](#building-footprints)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING](#subtype-building)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: GARAGE](#subtype-garage)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING U/C (Building Under Construction](#subtype-building-uc-building-under-construction)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SKYBRIDGE](#subtype-skybridge)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Attributes](#building-footprint-attributes)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Diagrams](#building-footprint-diagrams)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building](#subtype-building)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Garage](#subtype-garage)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building U/C (Building Under Construction](#subtype-building-uc-building-under-construction)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Skybridge](#subtype-skybridge)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Attributes](#building-footprint-attributes)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Diagrams](#building-footprint-diagrams)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Curb](#curb)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Elevation](#elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BUILDING ELEVATION](#subtype-building-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: WATER ELEVATION](#subtype-water-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: SPOT ELEVATION](#subtype-spot-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: BRIDGE ELEVATION](#subtype-bridge-elevation)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building Elevation](#subtype-building-elevation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Water Elevation](#subtype-water-elevation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Spot Elevation](#subtype-spot-elevation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bridge Elevation](#subtype-bridge-elevation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Plaza](#plaza)
 
 <br>
