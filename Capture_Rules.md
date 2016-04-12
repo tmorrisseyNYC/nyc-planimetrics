@@ -2,7 +2,7 @@
 #####<p align="left">**NYC DoITT, 2016** </p>
 
 ####Purpose<br>
-This document provides a summary of each planimetric feature class, including the parameters applied to collect individual features using the latest aerial imagery.
+This document is intended to provide a dual purpose. For the capture of the specific planimetric features, this document provides the rules for capture. Under what conditions features are captured, how they are captured and what exceptions apply. Since this document provides a wealth of information that would also benefit users working with the data, we decided to spend a bit more time formatting and presenting this document to further function as a secondary source of documentation. This document is not intended to replace the metadata included with the planimetric features but as a supplement. Lastly, this document orginated from previous planimetric updates that have evolved and been refined over each successive update and will be extended and maintained over the course of future updates.  
 
 ####Introduction<br>
 A primary goal of the NYC Citywide GIS is to maintain the accuracy and quality of the base data which includes the orthophotography and planimetrics, collectively known as NYC Map. This base is the foundation upon which virtually all other GIS information within the City of New York is built. Ensuring its completeness and accuracy is fundamental to the Group’s core mission. 
