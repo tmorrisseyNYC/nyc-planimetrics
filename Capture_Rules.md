@@ -49,7 +49,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# Boardwalk
+# BOARDWALK
 
 **Type: Polygon**
 
@@ -64,7 +64,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# Building Footprints
+# BUILDING FOOTPRINTS
 
 **Type: Polygon**
 
@@ -158,7 +158,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# Curb
+# CURB
 
 **Type: Polyline**
 
@@ -173,7 +173,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# Elevation
+# ELEVATION
 
 **Type: Point**
 
@@ -241,7 +241,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# Plaza
+# PLAZA
 
 **Type: Polygon**
 
