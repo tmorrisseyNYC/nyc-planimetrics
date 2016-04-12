@@ -58,7 +58,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Boardwalks along beachfront. |
 | **Capture Notes** | Maintain beach outline/shoreline (do not adjust for tidal differences between imagery flyover dates). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298093/f0be9c12-fb50-11e5-865c-85d17df0f4ca.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14476692/58a7b27e-00d7-11e6-98d1-c4c985301f02.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
