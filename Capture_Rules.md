@@ -50,7 +50,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # BOARDWALK
 
-**Type: Polygon**
+**Geometry Type: Polygon**
 
 |     |     |
 | --- | --- |
@@ -65,7 +65,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # BUILDING FOOTPRINTS
 
-**Type: Polygon**
+**Geometry Type: Polygon**
 
 **Includes the following structures:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
 
@@ -127,7 +127,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">**Description**</p> |
-| **HEIGHT_ROOF** | Building roof height was calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see BUILDING ELEVATION in the ELEVATION Feature Class). See diagrams below. |
+| **HEIGHT_ROOF** | Building roof height was calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see [BUILDING ELEVATION](#subtype-building-elevation) in the [ELEVATION](#elevation) Feature Class). See [Building Footprint Diagrams](#building-footprint-diagrams) below for additional details. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 | **NAME** | pending |
 | **BIN** | Building Identification Number.<br><br>In cases where there was no BIN for a building footprint, an "even million” BIN was assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
@@ -159,13 +159,13 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # CURB
 
-**Type: Polyline**
+**Geometry Type: Polyline**
 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery. |
 | **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
-| **Capture Notes** | n/a |
+| **Capture Notes** | This is a new feature class in the 2014 collection.  Prior to the 2014 capture, Curbs were a subset of the Pavement Edge feature class but have been broken out into a seperate feature class in 2014. |
 | **Features Excluded** | Curbs inside Parking lots were not captured. | 
 | **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298033/959a97b4-fb50-11e5-9f82-d58b82e4516a.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
@@ -174,7 +174,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # ELEVATION
 
-**Type: Point**
+**Geometry Type: Point**
 
 **Includes the following elevation sites:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
@@ -242,7 +242,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # PLAZA
 
-**Type: Polygon**
+**Geometry Type: Polygon**
 
 |     |     |
 | --- | --- |
