@@ -347,7 +347,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 #### Elevation Diagrams
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506728/3ebc111e-018d-11e6-979b-5f5049aaf392.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509710/abd7e7b0-019b-11e6-8be7-04d37057686b.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
