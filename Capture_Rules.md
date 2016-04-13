@@ -1024,9 +1024,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **The following are examples of where CSCL is missing and PavementEdge exists.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14505360/d0d2e606-0186-11e6-9b27-1530a2e06280.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509119/b1aab1d4-0198-11e6-958b-a3d92e74860f.png" /></p>
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14505398/f180e8bc-0186-11e6-8381-baa29da52def.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509115/ace4b1e0-0198-11e6-9152-4d939a6d2e9e.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1040,11 +1040,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 • In cases where medians are within medians, the conflating median is the majority (containing) median.<br>
 • Pavement Edge features on a median were flagged as having a BlockfaceID that was not conflated to CSCL.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14505677/31b4ee6e-0188-11e6-900a-9890644e6a0a.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509113/a6c098a6-0198-11e6-92d3-fb2b3cc1aad3.png" /></p>
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506419/bd97e6e0-018b-11e6-9ff4-4fd4308dad0d.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509103/9ffac352-0198-11e6-8948-a5530e49cc34.png" /></p>
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506424/c4c0a66e-018b-11e6-90e1-06163cb23cba.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509100/9c0c1b10-0198-11e6-9053-1e6401900091.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1054,7 +1054,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 • In cases where there are multiple <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> segments running along a single Pavement Edge (median or otherwise), the BlockfaceID from the Pavement Edge was conflated to the CSCL segments that correspond to the single Pavement Edge.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506127/4d80901a-018a-11e6-88c8-aa2a60bddb17.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509096/97638080-0198-11e6-9145-87cb2808fded.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1064,9 +1064,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 • In cases where multiple Pavement Edge segments span a single <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> (median or otherwise), only the BlockfaceID from the Pavement Edge closest to the CSCL segment midpoint was transferred to CSCL.  The other BlockfaceIDs were not conflated to CSCL. An attribute was added to the Pavement Edge database that indicates whether or not each BlockfaceID had been associated with a CSCL segment.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506262/e2cfc3f2-018a-11e6-8a19-dd7bf9c57e91.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509090/91d95ab8-0198-11e6-88bf-5cf2b8c694b1.png" /></p>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506405/a4614810-018b-11e6-98e7-bacce6f2975e.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509085/8c8843e4-0198-11e6-8880-2e38261ac597.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1079,11 +1079,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **The screenshot below shows an example of a “complex” intersection.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506531/42fd8894-018c-11e6-9890-119ed189f684.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509075/88a7aaee-0198-11e6-94c5-d9be93eb4eac.png" /></p>
 <br>
 **The screenshot below is the same intersection, but showing only the “at grade” centerlines and Pavement Edgs/Median features. Arrows have been included to depict the assignment of L/R BlockfaceIDs for the “at grade” segments in this intersection.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14506559/5ad8b1aa-018c-11e6-9341-85eb1f4fe052.png" /></p>
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509064/7e8603c6-0198-11e6-8c66-3367cd8f6066.png" /></p>
 
 [Back to Table of Contents](#table-of-contents)
 
