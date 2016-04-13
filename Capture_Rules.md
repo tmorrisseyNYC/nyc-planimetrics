@@ -1749,6 +1749,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All areas under construction (excavation) or deposits of material (storage) at their outer boundary. |
 | **Capture Notes** | Entrance to construction site was ignored and not snapped to sidewalk nor pavement edge. |
 | **Features Excluded** | Building foundations or partially demolished buildings were not collected.<br><br>Individual excavation or deposit areas were not partitioned. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510069/93a4dc6e-019d-11e6-83c7-fad45554c250.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510603/42a46c50-01a0-11e6-85dd-bdabec3896f9.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
