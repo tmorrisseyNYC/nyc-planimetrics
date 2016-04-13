@@ -945,7 +945,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All parking lots (paved or unpaved) greater than 2,000 sq. feet.<br><br>Parking areas adjacent to the travel-way and separated from the travel-way by a curb or other obstruction were captured as parking lots. In these cases, the [Roadbed](#roadbed) and [Pavement Edge](#pavement-edge) end or wrap around the parking lot. The parking lot is not included as part of the Roadbed. |
 | **Capture Notes** | These features connect to road edge ([Curb](#curb) or [Edge of Pavement](#subtype-edge-of-pavement)) only at entrances and exits. |
 | **Features Excluded** | Traffic islands within parking lot were not captured.<br><br>When a building of > 400 sq. feet was present, the building area was excluded from the parking lot polygon.<br><br>Parking areas adjacent to the travel-way, but not separated from the travel-way by a curb or other obstruction, were not captured.  Instead, those parking areas were included as part of the Roadbed and the Pavement Edge extends to the outside edge of such area.  | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510030/68529114-019d-11e6-994a-31a4f71df4a6.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1305,9 +1305,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Walls that retain earth from falling on transportation features. |
 | **Capture Notes** | n/a |
-| **Features Excluded** | Walls in backyards used for landscape were not captured.<br><br>Walls in areas under construction
-(excavation) were not captured. | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Features Excluded** | Walls in backyards used for landscape were not captured.<br><br>Walls in areas under construction (excavation) were not captured. | 
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510278/b3d63f22-019e-11e6-8a95-b0437d9363f2.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1320,7 +1319,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Walls that retain earth from falling on railroad bed. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510234/760ec31c-019e-11e6-80a5-338f3e0dc56b.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1394,7 +1393,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Significant changes (longer than 10 feet) along shorelines were updated to reflect new conditions. |
 | **Capture Notes** | When existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions, were not updated.<br><br>Streams greater than 8 feet that intersect bay/ocean were included as part of the shoreline.  When such conditions exist, those features were used and combined with [Hydrography](#hydrography). |
 | **Features Excluded** | n/a |
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510198/4441edf0-019e-11e6-89ff-25bcaec65869.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1414,7 +1413,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All paved sidewalks that are located along or adjacent to the ROW (i.e. building to building). |
 | **Capture Notes** | In areas of construction, sidewalks were collected along an imaginary line to complete polygon.<br><br>In areas where equipment is stored or installed on sidewalk, the full extent of sidewalk was approximated.<br><br>In areas where protection or scaffolding (pedestrian protection from overhead construction) is placed over sidewalk, sidewalk remained unchanged from existing data (not updated).<br><br>Sidewalks were collected when crossing large medians or traffic islands.<br><br>Sidewalks overlap the exit and entrance portion(s) of parking lot features.<br><br>Sidewalks overlap driveways, but not alleys. Sidewalk will be continued under bridges and overpasses if they are visible on both sides of the structure. |
 | **Features Excluded** | Openings in sidewalk (for landscaping and trees) were not captured.<br><br>Large, paved open spaces in front of buildings and outside of the public ROW (may have trees and landscaping) will be included in [Plaza](#plaza) and were not captured as sidewalk. | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510333/f9b2b1f6-019e-11e6-8059-5215e8d486ff.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1427,7 +1426,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All paved sidewalks for all interior sidewalk that are located interior to the ROW. |
 | **Capture Notes** | The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel.<br><br>In areas of construction, sidewalks were collected along an imaginary line to complete polygon.<br><br>In areas where equipment is stored or installed on sidewalk, the full extent of sidewalk was approximated.<br><br>In areas where protection or scaffolding (pedestrian protection from overhead construction) is placed over sidewalk, sidewalk remained unchanged from existing data (not updated). |
 | **Features Excluded** | Openings in sidewalk (for landscaping and trees) were not captured. | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510375/26781cd0-019f-11e6-8b50-c2788163feff.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1442,7 +1441,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | These featuers represent interior sidewalk centerlines for all interior sidewalk polygon features (not for the ROW Sidewalk). |
 | **Capture Notes** | The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel. Interior Sidewalk Centerlines were extended beyond the Interior Sidewalk Polygons when connecting to a <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510155/f95bd058-019d-11e6-8228-9947bfd8b9f2.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1640,7 +1639,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All in-ground swimming pools, regardless of shape, on the inside (water) of the pool. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Round, above-ground swimming pools were not captured, nor pools that are on buildings.<br><br>Fish ponds and landscape ponds of irregular shape, and low-sided kiddie pools, were not collected.  | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509962/10c292dc-019d-11e6-9035-2cc3c1b0ad1c.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1750,6 +1749,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All areas under construction (excavation) or deposits of material (storage) at their outer boundary. |
 | **Capture Notes** | Entrance to construction site was ignored and not snapped to sidewalk nor pavement edge. |
 | **Features Excluded** | Building foundations or partially demolished buildings were not collected.<br><br>Individual excavation or deposit areas were not partitioned. | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510069/93a4dc6e-019d-11e6-83c7-fad45554c250.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
