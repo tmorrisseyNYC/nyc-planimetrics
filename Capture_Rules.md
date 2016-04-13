@@ -529,9 +529,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | All medians that physically divide a roadbed were collected, which include medians, traffic islands, "Jersey Barriers", and painted areas that are used to separate the traffic flow. |
 | **Capture Notes** | Medians are sometimes paved, are normally elevated (have a curb), or may have dirt or grass.<br><br>Medians can have sidewalks crossing them. In those cases, the outline of the largest area was incorporated into a single median feature.<br><br>The NYC online Bike Lane data was used as a reference to identify potential new medians. Areas where the column ALLCLASSES is equal to I and "I,II" most often contained new medians. New Medians exist throughout the City regardless of these bike lane classifications. Thus, this was considered a supplemental source only. |
-| **Features Excluded** | The following features were not captured as medians:<br>&nbsp;&nbsp;&nbsp;• Barriers in front of buildings,<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to regulate traffic in construction areas, or<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to block-off road access. | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
-| **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
+| **Features Excluded** | The following features were not captured as medians:<br>&nbsp;&nbsp;&nbsp;• Barriers in front of buildings,<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to regulate traffic in construction areas, or<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to block-off road access. |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
@@ -543,7 +541,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians having white paved marking (fishbone or striped pattern). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Double yellow lines in the middle of a road were not captured as median.<br><br>Single independent white medians hatching used to direct traffic were not captured as median. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508345/fec96248-0194-11e6-8e2f-030a7da9874a.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509372/ea859cb6-0199-11e6-8ab1-1969ad3b5126.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -557,7 +555,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center"><img src="" /></p> |
-| **Photo** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508428/64b8b19e-0195-11e6-89fd-9a074b7c4b30.png" /></p> |<br><br>
+| **Photo** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509369/e46ff8a8-0199-11e6-9bdd-98c775668699.png" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
@@ -569,7 +567,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with guardrail outlining the curb of the median.  |
 | **Capture Notes** | These features incorporate a fixed width of three (3) feet centered on the fence. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508473/960a7b38-0195-11e6-8cc7-a4ba51b33e73.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509365/e034dccc-0199-11e6-8f55-b36a3b1d2143.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -582,7 +580,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with fencing.   |
 | **Capture Notes** | n/a |
 | **Features Excluded** | If feature respresents a Jersey Barrier with fencing, the feature was collected as a Jersey barrier. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508506/b6c83cde-0195-11e6-8ec7-83bebee5e1fa.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509362/da792a90-0199-11e6-832e-84492e0d4bea.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -595,7 +593,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with grass/vegetation inside and no curb. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508545/e48450c2-0195-11e6-9d9b-b3c58dce9a7b.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509357/d67d7702-0199-11e6-823f-f5c39b218f84.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -608,7 +606,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | "Jersey barriers" of a “permanent nature” (i.e., in place to regulate the traffic, positioned at a constant width of three (3) feet centered on the barrier).  |
 | **Capture Notes** | Whenever two jersey barriers were placed next to or in short distance of each other, the outer-most edge of both were used to determine the outline of a single feature. |
 | **Features Excluded** | Barrier medians which are moved on a daily basis, (e.g., at Manhattan entrances to Lincoln Tunnel) were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14508618/55072680-0196-11e6-909c-c9a1ca19529a.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509355/d1e27b0c-0199-11e6-902c-7386a6f141c2.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
