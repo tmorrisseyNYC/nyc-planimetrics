@@ -554,8 +554,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with curb edging, regardless of interior content (grass, pavement, concrete, etc.). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="" /></p> |
-| **Photo** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509369/e46ff8a8-0199-11e6-9bdd-98c775668699.png" /></p> |<br><br>
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509369/e46ff8a8-0199-11e6-9bdd-98c775668699.png" /></p> |
+| **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
