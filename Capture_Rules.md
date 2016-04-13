@@ -367,7 +367,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Decks supported by posts extending into the water. |
 | **Capture Notes** | Updated piers, commercial piers, and docks. Used existing plnimetrics data as guide. |
 | **Features Excluded** | Individual/private docks for recreational watercraft were not captured, unless they had already been captured as such in existing planimetric data. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14507708/f8cc1802-0191-11e6-9ec6-9677ab053f89.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509647/571f8db8-019b-11e6-8e68-6fb59d2a7a76.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -380,7 +380,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Structures, usually comprised of stone, earth, or concrete, extending from shore to lessen erosion.  They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances. |
 | **Capture Notes** | Delineated at the water level. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14507754/3831db44-0192-11e6-92bb-8328aadffd95.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509640/52c0de84-019b-11e6-8ecc-9145fe98d654.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -393,7 +393,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Seawalls are typically built on the land parallel to the coast, but may also include breakwaters that are built into the water. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/3277588/14507849/a98c2d94-0192-11e6-9c4e-1d8dfcf3d475.png" /></p> |
+| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509633/4f4f3796-019b-11e6-9397-7ed2be058844.png" /></p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
