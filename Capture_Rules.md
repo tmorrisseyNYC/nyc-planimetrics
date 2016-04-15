@@ -166,7 +166,6 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 #### Building Footprint Diagrams
 #####<p align="center">**Calculating HEIGHT_ROOF**</p>
-
 <br><p align="center">![Build_Foot_Diagram_1](Images/FeatureViews/Build_Foot_Diagram_1.png)</p>
 
 <br><p align="center">![Build_Foot_Diagram_2](Images/FeatureViews/Build_Foot_Diagram_2.png)</p>
@@ -262,7 +261,6 @@ The following attribute information applies to all feature classes.  Additional 
 
 <br>
 #### Elevation Diagrams
-
 <br><p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram.png)</p>
 
 [Back to Table of Contents](#table-of-contents)
@@ -310,7 +308,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Seawalls are typically built on the land parallel to the coast, but may also include breakwaters that are built into the water. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509633/4f4f3796-019b-11e6-9397-7ed2be058844.png" /></p> |
+| **Feature View** | <br><p align="center">![Seawall](Images/FeatureViews/Seawall.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -340,7 +338,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated all Lake/Reservoirs when general shape had changed. Existing features were not updated due to different water level. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509534/bbb3013e-019a-11e6-8fcf-b875139199c2.png" /></p> |
+| **Feature View** | <br><p align="center">![Lake](Images/FeatureViews/Lake.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -353,7 +351,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated pond outline when general shape had changed. Existing features were not updated due to different water level. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509529/b8250e40-019a-11e6-944d-7a6668aa0568.png" /></p> |
+| **Feature View** | <br><p align="center">![Pond](Images/FeatureViews/Pond.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -366,7 +364,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated all river whenever new conditions were encountered (e.g., due to piers, etc.).  Maintained internal divisions of river due to name change(s). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509526/b435f056-019a-11e6-9c4d-2d21ea10a90f.png" /></p> |
+| **Feature View** | <br><p align="center">![River](Images/FeatureViews/River.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -379,7 +377,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated all streams found to be wider than eight (8) feet if bank had changed.  Maintained internal divisions of stream due to name change(s). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509521/af89a7dc-019a-11e6-8321-fb64ad2a84ae.png" /></p> |
+| **Feature View** | <br><p align="center">![Stream](Images/FeatureViews/Stream.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -392,7 +390,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Update wetland and marsh boundaries only when changed due to drainage, change in surface, or if covered by buildings. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509519/ac23fbe2-019a-11e6-9cf1-79cedffd8c83.png" /></p> |
+| **Feature View** | <br><p align="center">![Wetland](Images/FeatureViews/Wetland.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -405,7 +403,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated beach and shoreline whenever feature had changed due to construction or erosion.  DoITT designation in existing files was maintained. Maintained interior divisions.  Did not update due to different water level (high/low tide). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509514/a880f472-019a-11e6-8972-b2e592c59b0c.png" /></p> |
+| **Feature View** | <br><p align="center">![Beach](Images/FeatureViews/Beach.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -418,7 +416,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | Updated bay/ocean shoreline whenever feature had changed due to construction or erosion.  DoITT designation in existing files was maintained. Maintained interior divisions.  Did not update due to different water level (high/low tide). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509508/a22652a2-019a-11e6-874e-49a289e89ca1.png" /></p> |
+| **Feature View** | <br><p align="center">![Bay](Images/FeatureViews/Bay.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -460,7 +458,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians having white paved marking (fishbone or striped pattern). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Double yellow lines in the middle of a road were not captured as median.<br><br>Single independent white medians hatching used to direct traffic were not captured as median. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509372/ea859cb6-0199-11e6-8ab1-1969ad3b5126.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Painted](Images/FeatureViews/Median_Painted.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -473,7 +471,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with curb edging, regardless of interior content (grass, pavement, concrete, etc.). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509369/e46ff8a8-0199-11e6-9bdd-98c775668699.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Curb](Images/FeatureViews/Median_Curb.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -486,7 +484,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with guardrail outlining the curb of the median.  |
 | **Capture Notes** | These features incorporate a fixed width of three (3) feet centered on the fence. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509365/e034dccc-0199-11e6-8f55-b36a3b1d2143.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Rail](Images/FeatureViews/Median_Rail.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -499,7 +497,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with fencing.   |
 | **Capture Notes** | n/a |
 | **Features Excluded** | If feature respresents a Jersey Barrier with fencing, the feature was collected as a Jersey barrier. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509362/da792a90-0199-11e6-832e-84492e0d4bea.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Fence](Images/FeatureViews/Median_Fence.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -512,7 +510,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Medians with grass/vegetation inside and no curb. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509357/d67d7702-0199-11e6-823f-f5c39b218f84.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Grass](Images/FeatureViews/Median_Grass.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -525,7 +523,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | "Jersey barriers" of a “permanent nature” (i.e., in place to regulate the traffic, positioned at a constant width of three (3) feet centered on the barrier).  |
 | **Capture Notes** | Whenever two jersey barriers were placed next to or in short distance of each other, the outer-most edge of both were used to determine the outline of a single feature. |
 | **Features Excluded** | Barrier medians which are moved on a daily basis, (e.g., at Manhattan entrances to Lincoln Tunnel) were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509355/d1e27b0c-0199-11e6-902c-7386a6f141c2.png" /></p> |
+| **Feature View** | <br><p align="center">![Median_Barrier](Images/FeatureViews/Median_Barrier.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
