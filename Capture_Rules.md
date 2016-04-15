@@ -194,7 +194,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Point
 
-**Includes the following elevation sites:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
+**Subtypes:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
 [**Attributes**](#elevation-attributes)<br>
 
