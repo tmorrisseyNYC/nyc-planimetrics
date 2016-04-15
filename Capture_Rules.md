@@ -1120,7 +1120,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated abandoned railroad centerlines. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![abandoned rr](Capture_Rules/Abandoned_RR.JPG)</p> |
+| **Feature View** | <br><p align="center">![ABANDONED RAILROAD](Images/FeatureViews/Abandoned_RR.JPG)</p> |
 | **Photo** | <br><p align="center"><img src="" /></p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
