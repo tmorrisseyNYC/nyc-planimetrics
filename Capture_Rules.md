@@ -14,130 +14,35 @@ Planimetrics are...TBC
 The source imagery for the current planimetric update was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
 <br>
 ####Table of Contents
-
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Boardwalk**](#boardwalk)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Building Footprint**](#building-footprint)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building](#subtype-building)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Garage](#subtype-garage)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building U/C (Building Under Construction)](#subtype-building-uc-building-under-construction)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Skybridge](#subtype-skybridge)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Attributes](#building-footprint-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Building Footprint Diagrams](#building-footprint-diagrams)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Curb**](#curb)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Elevation**](#elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Building Elevation](#subtype-building-elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Water Elevation](#subtype-water-elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Spot Elevation](#subtype-spot-elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bridge Elevation](#subtype-bridge-elevation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Attributes](#elevation-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Elevation Diagrams](#elevation-diagrams)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Hydro Structure**](#hydro-structure)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Piers](#subtype-piers)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Jetty](#subtype-jetty)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Seawall](#subtype-seawall)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hydro Structure Attributes](#hydro-structure-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Hydrography**](#hydrography)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Lake/Reservoir](#subtype-lakereservoir)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Pond](#subtype-pond)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: River](#subtype-river)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Stream](#subtype-stream)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Wetland/Marsh](#subtype-wetlandmarsh)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Beach/Shoreline](#subtype-beachshoreline)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bay/Ocean](#subtype-bayocean)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hydrography Attributes](#hydrography-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Median**](#median)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Painted](#subtype-median_painted)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Curb](#subtype-median_curb)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Rail](#subtype-median_rail)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Fence](#subtype-median_fence)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Grass](#subtype-median_grass)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Median_Barrier](#subtype-median_barrier)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Median Attributes](#median-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Misc Struct Poly**](#misc-struct-poly)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Billboard](#subtype-billboard)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Sign Gantry](#subtype-sign-gantry)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Toll Plaza](#subtype-toll-plaza)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Misc Struct Poly Attributes](#misc-struct-poly-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Open Space**](#open-space)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Cemetery Outline](#subtype-cemetery-outline)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Recreational Area](#subtype-recreational-area)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Vacant Area](#subtype-vacant-area)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Open Space Attributes](#open-space-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Park**](#park)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Park Boundary](#subtype-park-boundary)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Baseball/Softball Field](#subtype-baseballsoftball-field)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Basketball Court](#subtype-basketball-court)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Handball](#subtype-handball)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Multipurpose Court](#subtype-multipurpose-court)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Tennis Court](#subtype-tennis-court)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Volleyball](#subtype-volleyball)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Football Field](#subtype-football-field)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Soccer Field](#subtype-soccer-field)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Golf Course](#subtype-golf-course)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Pools](#subtype-pools)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Track](#subtype-track)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Skating Rink](#subtype-skating-rink)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Greenstreets](#subtype-greenstreets)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Park Attributes](#park-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Parking Lot**](#parking-lot)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Pavement Edge**](#pavement-edge)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Edge of Pavement](#subtype-edge-of-pavement)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Airport Runway](#subtype-airport-runway)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Alley](#subtype-alley)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pavement Edge Attributes](#pavement-edge-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Pavement Edge Diagrams](#pavement-edge-diagrams)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Plaza**](#plaza)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Railroad**](#railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Railroad](#subtype-railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Elevated Railroad](#subtype-elevated-railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Embankment Railroad](#subtype-embankment-railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Viaduct Centerline](#subtype-viaduct-centerline)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Depression Railroad](#subtype-depression-railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Railway Fence](#subtype-railway-fence)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Abandoned Railroad](#subtype-abandoned-railroad)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Railroad Attributes](#railroad-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Railroad Structure**](#railroad-structure)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Subway/Train Station](#subtype-subwaytrain-station)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Ventilation Grate](#subtype-ventilation-grate)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Emergency Exit](#subtype-emergency-exit)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Transit Entrance](#subtype-transit-entrance)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Railroad Structure Attributes](#railroad-structure-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Retaining Wall**](#retaining-wall)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Retaining Wall](#subtype-retaining-wall)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Railroad Retaining Wall](#subtype-railroad-retaining-wall)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Roadbed**](#roadbed)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Roadbed](#subtype-roadbed)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Intersection](#subtype-intersection)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Driveway](#subtype-driveway)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Shoulder](#subtype-shoulder)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Shoreline**](#shoreline)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Sidewalk**](#sidewalk)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: ROW Sidewalk](#subtype-row-sidewalk)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Interior Sidewalk](#subtype-interior-sidewalk)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Sidewalk Centerline**](#sidewalk-centerline)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Point**](#street-furniture-point)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: City Benches](#subtype-city-benches)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Mailboxes](#subtype-mailboxes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Telephone Booths](#subtype-telephone-booths)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Munimeters](#subtype-munimeters)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Ticket Vending Machines](#subtype-ticket-vending-machines)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Street Seats](#subtype-street-seats)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Poly**](#street-furniture-poly)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bus Shelters](#subtype-bus-shelters)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Newsstands](#subtype-newsstands)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Automatic Pay Toilet](#subtype-automatic-pay-toilet)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bike Shelters](#subtype-bike-shelters)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bike Corral](#subtype-bike-corral)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Planters](#subtype-planters)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Information Kiosks](#subtype-information-kiosks)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Swimming Pool**](#swimming-pool)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Transport Structure**](#transport-structure)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Bridge](#subtype-bridge)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Tunnel](#subtype-tunnel)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Rail Bridge](#subtype-rail-bridge)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Railroad Viaduct](#subtype-railroad-viaduct)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Subtype: Overpass](#subtype-overpass)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Transport Structure Attributes](#transport-structure-attributes)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[**Under Construction Unknown**](#under-construction-unknown)
+&nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;**FEATURE CLASSES**<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Boardwalk**](#boardwalk)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Building Footprint**](#building-footprint)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Curb**](#curb)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Elevation**](#elevation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Hydro Structure**](#hydro-structure)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Hydrography**](#hydrography)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Median**](#median)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Misc Struct Poly**](#misc-struct-poly)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Open Space**](#open-space)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Park**](#park)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Parking Lot**](#parking-lot)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Pavement Edge**](#pavement-edge)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Plaza**](#plaza)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Railroad**](#railroad)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Railroad Structure**](#railroad-structure)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Retaining Wall**](#retaining-wall)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Roadbed**](#roadbed)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Shoreline**](#shoreline)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sidewalk**](#sidewalk)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Sidewalk Centerline**](#sidewalk-centerline)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Point**](#street-furniture-point)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Poly**](#street-furniture-poly)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Swimming Pool**](#swimming-pool)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Transport Structure**](#transport-structure)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Under Construction Unknown**](#under-construction-unknown)
 
 <br>
 # Imagery and Data Specifications
@@ -160,7 +65,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # BOARDWALK
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
 |     |     |
 | --- | --- |
@@ -175,10 +80,13 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # BUILDING FOOTPRINT
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
+**Subtypes:** [Building](#subtype-building), [Garage](#subtype-garage), [Under Construction Unknown](#subtype-building-uc-building-under-construction), and [Skybridge](#subtype-skybridge)
 
+[**Attributes**](#building-footprint-attributes)<br>
+
+[**Diagrams**](#building-footprint-diagrams)<br>
 <br>
 ### Subtype: BUILDING
 
@@ -269,7 +177,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # CURB
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
 |     |     |
 | --- | --- |
@@ -284,10 +192,13 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # ELEVATION
 
-**Geometry Type: Point**
+**Geometry Type:** Point
 
 **Includes the following elevation sites:** [Building Elevation](#subtype-building-elevation), [Water Elevation](#subtype-water-elevation), [Spot Elevation](#subtype-spot-elevation), and [Bridge Elevation](#subtype-bridge-elevation)
 
+[**Attributes**](#elevation-attributes)<br>
+
+[**Diagrams**](#elevation-diagrams)<br>
 <br>
 ### Subtype: BUILDING ELEVATION
 
@@ -359,10 +270,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # HYDRO STRUCTURE
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Piers](#subtype-piers), [Jetty](#subtype-jetty), and [Seawall](#subtype-seawall)
+**Subtypes:** [Piers](#subtype-piers), [Jetty](#subtype-jetty), and [Seawall](#subtype-seawall)
 
+[**Attributes**](#hydro-structure-attributes)<br>
 <br>
 ### Subtype: PIERS
 
@@ -414,10 +326,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # HYDROGRAPHY
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Lake/Reservoir](#subtype-lake/reservoir), [Pond](#subtype-pond), [River](#subtype-river), [Stream](#subtype-stream), [Wetland/Marsh](#subtype-wetland/marsh), [Beach/Shoreline](#subtype-beach/shoreline), and [Bay/Ocean](#subtype-bay/ocean)
+**Subtypes:** [Lake/Reservoir](#subtype-lake/reservoir), [Pond](#subtype-pond), [River](#subtype-river), [Stream](#subtype-stream), [Wetland/Marsh](#subtype-wetland/marsh), [Beach/Shoreline](#subtype-beach/shoreline), and [Bay/Ocean](#subtype-bay/ocean)
 
+[**Attributes**](#hydrography-attributes)<br>
 <br>
 ### Subtype: LAKE/RESERVOIR
 
@@ -522,10 +435,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # MEDIAN
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Median_Painted](#subtype-median_painted), [Median_Curb](#subtype-median_curb), [Median_Rail](#subtype-median_rail), [Median_Fence](#subtype-median_fence), [Median_Grass](#subtype-median_grass), and [Median_Barrier](#subtype-median_barrier)
+**Subtypes:** [Median_Painted](#subtype-median_painted), [Median_Curb](#subtype-median_curb), [Median_Rail](#subtype-median_rail), [Median_Fence](#subtype-median_fence), [Median_Grass](#subtype-median_grass), and [Median_Barrier](#subtype-median_barrier)
 
+[**Attributes**](#median-attributes)<br>
 <br>
 ### General Guidelines for Medians
 
@@ -628,10 +542,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # MISC STRUCT POLY
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Billboard](#subtype-billboard), [Sign Gantry](#subtype-sign-gantry), and [Toll Plaza](#subtype-toll-plaza)
+**Subtypes:** [Billboard](#subtype-billboard), [Sign Gantry](#subtype-sign-gantry), and [Toll Plaza](#subtype-toll-plaza)
 
+[**Attributes**](#misc-struct-poly-attributes)<br>
 <br>
 ### Subtype: BILLBOARD
 
@@ -684,10 +599,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # OPEN SPACE
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Cemetery Outline](#subtype-cemetery-outline), [Recreational Area](#subtype-recreational-area), and [Vacant Area](#subtype-vacant-area)
+**Subtypes:** [Cemetery Outline](#subtype-cemetery-outline), [Recreational Area](#subtype-recreational-area), and [Vacant Area](#subtype-vacant-area)
 
+[**Attributes**](#open-space-attributes)<br>
 <br>
 ### Subtype: CEMETERY OUTLINE
 
@@ -740,10 +656,11 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # PARK
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Park Boundary](#subtype-park-boundary), [Baseball/Softball Field](#subtype-baseballsoftball-field), [Basketball Court](#subtype-basketball-court), [Handball](#subtype-handball), [Multipurpose Court](#subtype-multipurpose-court), [Tennis Court](#subtype-tennis-court), [Volleyball](#subtype-volleyball), [Football Field](#subtype-football-field), [Soccer Field](#subtype-soccer-field), [Golf Course](#subtype-golf-course), [Pools](#subtype-pools), [Track](#subtype-track), [Skating Rink](#subtype-skating-rink), and [Greenstreets](#subtype-greenstreets)
+**Subtypes:** [Park Boundary](#subtype-park-boundary), [Baseball/Softball Field](#subtype-baseballsoftball-field), [Basketball Court](#subtype-basketball-court), [Handball](#subtype-handball), [Multipurpose Court](#subtype-multipurpose-court), [Tennis Court](#subtype-tennis-court), [Volleyball](#subtype-volleyball), [Football Field](#subtype-football-field), [Soccer Field](#subtype-soccer-field), [Golf Course](#subtype-golf-course), [Pools](#subtype-pools), [Track](#subtype-track), [Skating Rink](#subtype-skating-rink), and [Greenstreets](#subtype-greenstreets)
 
+[**Attributes**](#park-attributes)<br>
 <br>
 ### Subtype: PARK BOUNDARY
 
@@ -942,7 +859,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # PARKING LOT
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
 |     |     |
 | --- | --- |
@@ -957,10 +874,13 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 # PAVEMENT EDGE
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
-**Includes the following structures:** [Edge Of Pavement](#subtype-edge-of-pavement), [Airport Runway](#subtype-airport-runway), and [Alley](#subtype-alley)
+**Subtypes:** [Edge Of Pavement](#subtype-edge-of-pavement), [Airport Runway](#subtype-airport-runway), and [Alley](#subtype-alley)
 
+[**Attributes**](#pavement-edge-attributes)<br>
+
+[**Diagrams**](#pavement-edge-diagrams)<br>
 <br>
 ### Subtype: EDGE OF PAVEMENT
 
@@ -1093,7 +1013,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # PLAZA
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
 |     |     |
 | --- | --- |
@@ -1108,10 +1028,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # RAILROAD
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
-**Includes the following features:** [Railroad](#subtype-railroad), [Elevated Railroad](#subtype-elevated-railroad), [Embankment Railroad](#subtype-embankment-railroad), [Viaduct Centerline](#subtype-viaduct-centerline), [Depression Railroad](#subtype-depression-railroad), [Railway Fence](#subtype-railway-fence), and [Abandoned Railroad](#subtype-abandoned-railroad)
+**Subtypes:** [Railroad](#subtype-railroad), [Elevated Railroad](#subtype-elevated-railroad), [Embankment Railroad](#subtype-embankment-railroad), [Viaduct Centerline](#subtype-viaduct-centerline), [Depression Railroad](#subtype-depression-railroad), [Railway Fence](#subtype-railway-fence), and [Abandoned Railroad](#subtype-abandoned-railroad)
 
+[**Attributes**](#railroad-attributes)<br>
 <br>
 ### Subtype: RAILROAD
 
@@ -1216,10 +1137,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # RAILROAD STRUCTURE
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following structures:** [Subway/Train Station](#subtype-subwaytrain-station), [Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station), [Ventilation Grate](#subtype-ventilation-grate), [Emergency Exit](#subtype-emergency-exit), and [Transit Entrance](#subtype-transit-entrance)
+**Subtypes:** [Subway/Train Station](#subtype-subwaytrain-station), [Elevated Subway/Train Station](#subtype-elevated-subwaytrain-station), [Ventilation Grate](#subtype-ventilation-grate), [Emergency Exit](#subtype-emergency-exit), and [Transit Entrance](#subtype-transit-entrance)
 
+[**Attributes**](#railroad-structure-attributes)<br>
 <br>
 ### Subtype: SUBWAY/TRAIN STATION
 
@@ -1298,9 +1220,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # RETAINING WALL
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
-**Includes the following features:** [Retaining Wall](#subtype-retaining-wall) and [Railroad Retaining Wall](#subtype-railroad-retaining-wall)
+**Subtypes:** [Retaining Wall](#subtype-retaining-wall) and [Railroad Retaining Wall](#subtype-railroad-retaining-wall)
 
 <br>
 ### Subtype: RETAINING WALL
@@ -1331,9 +1253,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # ROADBED
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Roadbed](#subtype-roadbed), [Intersection](#subtype-intersection), [Driveway](#subtype-driveway), and [Shoulder](#subtype-shoulder)
+**Subtypes:** [Roadbed](#subtype-roadbed), [Intersection](#subtype-intersection), [Driveway](#subtype-driveway), and [Shoulder](#subtype-shoulder)
 
 <br>
 ### Subtype: ROADBED
@@ -1390,7 +1312,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # SHORELINE
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
 |     |     |
 | --- | --- |
@@ -1405,9 +1327,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # SIDEWALK
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Row Sidewalk](#subtype-row-sidewalk) and [Interior Sidewalk](#subtype-interior-sidewalk)
+**Subtypes:** [Row Sidewalk](#subtype-row-sidewalk) and [Interior Sidewalk](#subtype-interior-sidewalk)
 
 <br>
 ### Subtype: ROW SIDEWALK
@@ -1438,7 +1360,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # SIDEWALK CENTERLINE
 
-**Geometry Type: Polyline**
+**Geometry Type:** Polyline
 
 |     |     |
 | --- | --- |
@@ -1453,9 +1375,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # STREET FURNITURE POINT
 
-**Geometry Type: Point**
+**Geometry Type:** Point
 
-**Includes the following features:** [City Benches](#subtype-city-benches), [Mailboxes](#subtype-mailboxes), [Telephone Booths](#subtype-telephone-booths), [Munimeters](#subtype-munimeters), [Ticket Vending Machines](#subtype-ticket-vending-machines), and [Street Seats](#subtype-street-seats)
+**Subtypes:** [City Benches](#subtype-city-benches), [Mailboxes](#subtype-mailboxes), [Telephone Booths](#subtype-telephone-booths), [Munimeters](#subtype-munimeters), [Ticket Vending Machines](#subtype-ticket-vending-machines), and [Street Seats](#subtype-street-seats)
 
 <br>
 ### Subtype: CITY BENCHES
@@ -1538,9 +1460,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # STREET FURNITURE POLY
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Bus Shelters](#subtype-bus-shelters), [Newsstands](#subtype-newsstands), [Automatic Pay Toilet](#subtype-automatic-pay-toilet), [Bike Shelters](#subtype-bike-shelters), [Bike Corral](#subtype-bike-corral), [Planters](#subtype-planters), and [Information Kiosks](#subtype-information-kiosks)
+**Subtypes:** [Bus Shelters](#subtype-bus-shelters), [Newsstands](#subtype-newsstands), [Automatic Pay Toilet](#subtype-automatic-pay-toilet), [Bike Shelters](#subtype-bike-shelters), [Bike Corral](#subtype-bike-corral), [Planters](#subtype-planters), and [Information Kiosks](#subtype-information-kiosks)
 
 <br>
 ### Subtype: BUS SHELTERS
@@ -1636,7 +1558,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # SWIMMING POOL
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
 |     |     |
 | --- | --- |
@@ -1651,10 +1573,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # TRANSPORT STRUCTURE
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
-**Includes the following features:** [Bridge](#subtype-bridge), [Tunnel](#subtype-tunnel), [Rail Bridge](#subtype-rail-bridge), [Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge), [Railroad Viaduct](#subtype-railroad-viaduct), and [Overpass](#subtype-overpass)
+**Subtypes:** [Bridge](#subtype-bridge), [Tunnel](#subtype-tunnel), [Rail Bridge](#subtype-rail-bridge), [Pedestrian/Bike Bridge](#subtype-pedestrianbike-bridge), [Railroad Viaduct](#subtype-railroad-viaduct), and [Overpass](#subtype-overpass)
 
+[**Attributes**](#transport-structure-attributes)<br>
 <br>
 ### Subtype: BRIDGE
 
@@ -1746,7 +1669,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 # UNDER CONSTRUCTION UNKNOWN
 
-**Geometry Type: Polygon**
+**Geometry Type:** Polygon
 
 |     |     |
 | --- | --- |
