@@ -865,7 +865,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All parking lots (paved or unpaved) greater than 2,000 sq. feet.<br><br>Parking areas adjacent to the travel-way and separated from the travel-way by a curb or other obstruction were captured as parking lots. In these cases, the [Roadbed](#roadbed) and [Pavement Edge](#pavement-edge) end or wrap around the parking lot. The parking lot is not included as part of the Roadbed. |
 | **Capture Notes** | These features connect to road edge ([Curb](#curb) or [Edge of Pavement](#subtype-edge-of-pavement)) only at entrances and exits. |
 | **Features Excluded** | Traffic islands within parking lot were not captured.<br><br>When a building of > 400 sq. feet was present, the building area was excluded from the parking lot polygon.<br><br>Parking areas adjacent to the travel-way, but not separated from the travel-way by a curb or other obstruction, were not captured.  Instead, those parking areas were included as part of the Roadbed and the Pavement Edge extends to the outside edge of such area.  | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510030/68529114-019d-11e6-994a-31a4f71df4a6.png" /></p> |
+| **Feature View** | <br><p align="center">![Parking_Lot](Images/FeatureViews/Parking_Lot.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -945,9 +945,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **The following are examples of where CSCL is missing and PavementEdge exists.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509119/b1aab1d4-0198-11e6-958b-a3d92e74860f.png" /></p>
+<br><p align="center">![PE_Diagram_1_1](Images/FeatureViews/PE_Diagram_1_1.png)</p> 
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509115/ace4b1e0-0198-11e6-9152-4d939a6d2e9e.png" /></p>
+<br><p align="center">![PE_Diagram_1_2](Images/FeatureViews/PE_Diagram_1_2.png)</p> 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -961,11 +961,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 • In cases where medians are within medians, the conflating median is the majority (containing) median.<br>
 • Pavement Edge features on a median were flagged as having a BlockfaceID that was not conflated to CSCL.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509113/a6c098a6-0198-11e6-92d3-fb2b3cc1aad3.png" /></p>
+<br><p align="center">![PE_Diagram_2_1](Images/FeatureViews/PE_Diagram_2_1.png)</p> 
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509103/9ffac352-0198-11e6-8948-a5530e49cc34.png" /></p>
+<br><p align="center">![PE_Diagram_2_2](Images/FeatureViews/PE_Diagram_2_2.png)</p> 
 <br>
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509100/9c0c1b10-0198-11e6-9053-1e6401900091.png" /></p>
+<br><p align="center">![PE_Diagram_2_3](Images/FeatureViews/PE_Diagram_2_3.png)</p> 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -975,7 +975,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 • In cases where there are multiple <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> segments running along a single Pavement Edge (median or otherwise), the BlockfaceID from the Pavement Edge was conflated to the CSCL segments that correspond to the single Pavement Edge.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509096/97638080-0198-11e6-9145-87cb2808fded.png" /></p>
+<br><p align="center">![PE_Diagram_3](Images/FeatureViews/PE_Diagram_3.png)</p> 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -985,9 +985,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 • In cases where multiple Pavement Edge segments span a single <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> (median or otherwise), only the BlockfaceID from the Pavement Edge closest to the CSCL segment midpoint was transferred to CSCL.  The other BlockfaceIDs were not conflated to CSCL. An attribute was added to the Pavement Edge database that indicates whether or not each BlockfaceID had been associated with a CSCL segment.<br>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509090/91d95ab8-0198-11e6-88bf-5cf2b8c694b1.png" /></p>
+<br><p align="center">![PE_Diagram_4_1](Images/FeatureViews/PE_Diagram_4_1.png)</p> 
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509085/8c8843e4-0198-11e6-8880-2e38261ac597.png" /></p>
+<br><p align="center">![PE_Diagram_4_2](Images/FeatureViews/PE_Diagram_4_2.png)</p> 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1000,11 +1000,11 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 **The screenshot below shows an example of a “complex” intersection.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509075/88a7aaee-0198-11e6-94c5-d9be93eb4eac.png" /></p>
+<br><p align="center">![PE_Diagram_5_1](Images/FeatureViews/PE_Diagram_5_1.png)</p> 
 <br>
 **The screenshot below is the same intersection, but showing only the “at grade” centerlines and Pavement Edgs/Median features. Arrows have been included to depict the assignment of L/R BlockfaceIDs for the “at grade” segments in this intersection.**
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509064/7e8603c6-0198-11e6-8c66-3367cd8f6066.png" /></p>
+<br><p align="center">![PE_Diagram_5_2](Images/FeatureViews/PE_Diagram_5_2.png)</p> 
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -1019,7 +1019,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
 | **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas are partitioned from medians and / or sidewalks when adjacent to such features. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298127/215672c8-fb51-11e5-9caf-ea052fbfb3f4.png" /></p> |
+| **Feature View** | <br><p align="center">![Plaza](Images/FeatureViews/Plaza.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1231,7 +1231,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Walls that retain earth from falling on transportation features. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Walls in backyards used for landscape were not captured.<br><br>Walls in areas under construction (excavation) were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510278/b3d63f22-019e-11e6-8a95-b0437d9363f2.png" /></p> |
+| **Feature View** | <br><p align="center">![Retaining_Wall_1](Images/FeatureViews/Retaining_Wall_1.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1244,7 +1244,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Walls that retain earth from falling on railroad bed. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510234/760ec31c-019e-11e6-80a5-338f3e0dc56b.png" /></p> |
+| **Feature View** | <br><p align="center">![Retaining_Wall_2](Images/FeatureViews/Retaining_Wall_2.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1318,7 +1318,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Significant changes (longer than 10 feet) along shorelines were updated to reflect new conditions. |
 | **Capture Notes** | When existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions, were not updated.<br><br>Streams greater than 8 feet that intersect bay/ocean were included as part of the shoreline.  When such conditions exist, those features were used and combined with [Hydrography](#hydrography). |
 | **Features Excluded** | n/a |
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14510198/4441edf0-019e-11e6-89ff-25bcaec65869.png" /></p> |
+| **Feature View** | <br><p align="center">![Shoreline](Images/FeatureViews/Shoreline.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
