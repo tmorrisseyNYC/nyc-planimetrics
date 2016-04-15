@@ -73,7 +73,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Boardwalks along beachfront. |
 | **Capture Notes** | Maintain beach outline/shoreline (do not adjust for tidal differences between imagery flyover dates). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14476692/58a7b27e-00d7-11e6-98d1-c4c985301f02.png" /></p> |
+| **Feature View** | <br><p align="center">![Boardwalk](Images/FeatureViews/Boardwalk.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -96,7 +96,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All buildings with well-defined walls and roofs that are >400 square feet and taller than 12 feet were captured.<br><br>Buildings with <12 feet height but with BIN were captured.<br><br>Buildings with BIN but <400 square feet were also captured. |
 | **Capture Notes** | Buildings with flat roofs were captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs were captured on the building footprint.<br><br>Carports, when attached to main building, were included in the outline. Interior divisions within buildings were not captured (used existing building layer and BIN as guide).<br><br>Parcel data and BIN was used as guidance for collection. Where the parcel data indicated that a building should be two or more geometries AND there is NO physical indication, the building was split using the parcel lines. Where the parcel data indicated that a building should be two or more geometries AND there is a physical indication, the building was split using the physical indications. If an existing building was split into several new buildings, the original BIN was retained in only one of the new buildings (ideally the largest) and the new buildings were assigned an "even million" BIN (as a placeholder). BINs can not be duplicated. <br><br>Building Footprints abutting one another on a single tax lot, but each having a unique BIN, were flagged and verified during review.<br><br>If a building was demolished (i.e., as evidenced in the imagery), the BIN was also deleted and was not used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location.  These small triangles were added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building was constructed in the new orthos, the building was captured,  the attributes from triangle to building were transferred to the new building, and the triangle was deleted. If no new building was visible on the orthos, the triangles were left in the data.<br><br>For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | The following features were not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft.<br>• awnings, scaffolds, or sidewalk sheds. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298164/58700896-fb51-11e5-929f-d0fe4a8c6b7a.png" /></p> |
+| **Feature View** | <br><p align="center">![Build_Foot](Images/FeatureViews/Build_Foot.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -109,7 +109,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All garages were captured, regardless of size.  To be considered a garage, the structure must have a driveway (paved or unpaved) for road  access, and be able to store one or more cars. |
 | **Capture Notes** | Special care was applied to ensure sheds were not confused with garages. In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’.<br><br>The Parcel layer was used to place garages within parcel or at parcel boundary – being sure to check for special cases where parcel boundary clearly crosses a garage. In these cases, either the garage was split using physical features, or the property line was used where there was no distinguishing physical feature. |
 | **Features Excluded** | Small tool or storage sheds in backyards which have no visible car access were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14299040/41289f0e-fb56-11e5-8281-4a2c35073a44.png" /></p> |
+| **Feature View** | <br><p align="center">![Garages](Images/FeatureViews/Garages.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -122,7 +122,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298827/1767f206-fb55-11e5-985a-51f3679c00cf.png" /></p> |
+| **Feature View** | <br><p align="center">![Build_UC](Images/FeatureViews/Build_UC.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -135,7 +135,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Elevated walkways that connect buildings were captured as separate building polygons and coded as “Skybridge”. |
 | **Capture Notes** | Skybridges were populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned an “even million" BIN during capture. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298736/7a7802f6-fb54-11e5-8168-ebae9ac78f7e.png" /></p> |
+| **Feature View** | <br><p align="center">![Skybridge](Images/FeatureViews/Skybridge.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -167,9 +167,9 @@ The following attribute information applies to all feature classes.  Additional 
 #### Building Footprint Diagrams
 #####<p align="center">**Calculating HEIGHT_ROOF**</p>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298257/eb233960-fb51-11e5-9db6-a31c1fa23cff.png" /></p>
+<p align="center">![Build_Foot_Diagram_1](Images/FeatureViews/Build_Foot_Diagram_1.png)</p>
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298243/d95f054c-fb51-11e5-9f00-0a41b3ac3ff3.png" /></p>
+<p align="center">![Build_Foot_Diagram_2](Images/FeatureViews/Build_Foot_Diagram_2.png)</p>
 
 <br>
 [Back to Table of Contents](#table-of-contents)
@@ -185,7 +185,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
 | **Capture Notes** | This is a new feature class in the 2014 collection.  Prior to the 2014 capture, Curbs were a subset of the Pavement Edge feature class but have been broken out into a seperate feature class in 2014. |
 | **Features Excluded** | Curbs inside Parking lots were not captured. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14298033/959a97b4-fb50-11e5-9f82-d58b82e4516a.png" /></p> |
+| **Feature View** | <br><p align="center">![Curb](Images/FeatureViews.png/)</p> |Curb
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -208,7 +208,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Elevation points were captured for all building footprint features. |
 | **Capture Notes** | Elevation of the highest portion of the roof of a building, excluding antennas and roof fixtures such as air conditioning (AC), elevator shafts, chimneys, etc.<br><br>Elevation values were transferred to each building footprint to calculate the building height attribute. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14542976/dddb3e46-025f-11e6-9a50-18d6ba80aeb7.png" /></p> |
+| **Feature View** | <br><p align="center">![Elevation_Build](Images/FeatureViews/Elevation_Build.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -221,7 +221,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Elevation points were captured on standing water (ponds, reservoirs, lakes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14542858/3200bd94-025f-11e6-9043-19a8f129e713.png" /></p> |
+| **Feature View** | <br><p align="center">![Elevation_Water](Images/FeatureViews/Elevation_Water.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -234,7 +234,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Spot elevations were captured on paved, unpaved, and alley subtypes in <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> centerline and all <a href="https://data.cityofnewyork.us/dataset/Sidewalk-Centerline/a9xv-vek9/about">Interior Sideswalk CSCL</a> feature classes.  Elevation points were placed in the center of the roadbed (coincident with CSCL features).  These points were captured at the beginning, middle, and end of length of visible roadbed.  Additional elevation points were added at 200’ spacing when the distance between the beginning, middle, or end was greater than 200 linear feet. |
 | **Capture Notes** | In areas where the [PAVEMENT_EDGE](#pavement_edge) feature class has been updated, any existing Spot elevations were updated.<br><br>For new streets, new spot elevations were created in the center of the roadbed according to the following rules:<br>1) Placed at Intersections (might not necessarily be at the same location as the node from the centerline, one point per intersection even on complex intersections).<br>2) Placed Every 200 feet when midpoint of bridge or city block exceeds distance.<br>3) Placed on paved, unpaved, alley subtypes in <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> centerline features class and all of the Interior Sidewalk Centerline feature class.  Spot elevation were not added to a CSCL feature if no roadbed exists (e,g, area is under construction).<br>4) Mid-Street segment – at the approximate mid-point of a street segment. |
 | **Features Excluded** | Spot elevations were not captured on a <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature if no roadbed exists. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14542786/c3ba2aa0-025e-11e6-91ef-ee159ab75cad.png" /></p> |
+| **Feature View** | <br><p align="center">![Elevation_Spot](Images/FeatureViews/Elevation_Spot.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -247,7 +247,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | n/a |
 | **Capture Notes** | This is a subset of spot elevations.  These points were captured at the beginning, middle, and end of length of visible bridges and overpasses.  Additional elevation points were added at 200’ spacing when the distance between the beginning, middle, or end was greater than 200 linear feet. |
 | **Features Excluded** | Elevation points were not collected for pedestrian/bike bridges. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14543094/88694934-0260-11e6-89a7-a3580a5cca7b.png" /></p> |
+| **Feature View** | <br><p align="center">![Elevation_Bridge](Images/FeatureViews/Elevation_Bridge.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -263,7 +263,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 #### Elevation Diagrams
 
-<p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509710/abd7e7b0-019b-11e6-8be7-04d37057686b.png" /></p>
+<p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram.png)</p>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -284,7 +284,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Decks supported by posts extending into the water. |
 | **Capture Notes** | Updated piers, commercial piers, and docks. Used existing plnimetrics data as guide. |
 | **Features Excluded** | Individual/private docks for recreational watercraft were not captured, unless they had already been captured as such in existing planimetric data. | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509647/571f8db8-019b-11e6-8e68-6fb59d2a7a76.png" /></p> |
+| **Feature View** | <br><p align="center">![Pier](Images/FeatureViews/Pier.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -297,7 +297,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Structures, usually comprised of stone, earth, or concrete, extending from shore to lessen erosion.  They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances. |
 | **Capture Notes** | Delineated at the water level. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center"><img src="https://cloud.githubusercontent.com/assets/17553952/14509640/52c0de84-019b-11e6-8ecc-9145fe98d654.png" /></p> |
+| **Feature View** | <br><p align="center">![Jetty](Images/FeatureViews/Jetty.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
