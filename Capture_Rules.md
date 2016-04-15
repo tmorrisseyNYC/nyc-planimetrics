@@ -167,9 +167,9 @@ The following attribute information applies to all feature classes.  Additional 
 #### Building Footprint Diagrams
 #####<p align="center">**Calculating HEIGHT_ROOF**</p>
 
-<p align="center">![Build_Foot_Diagram_1](Images/FeatureViews/Build_Foot_Diagram_1.png)</p>
+<br><p align="center">![Build_Foot_Diagram_1](Images/FeatureViews/Build_Foot_Diagram_1.png)</p>
 
-<p align="center">![Build_Foot_Diagram_2](Images/FeatureViews/Build_Foot_Diagram_2.png)</p>
+<br><p align="center">![Build_Foot_Diagram_2](Images/FeatureViews/Build_Foot_Diagram_2.png)</p>
 
 <br>
 [Back to Table of Contents](#table-of-contents)
@@ -185,7 +185,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
 | **Capture Notes** | This is a new feature class in the 2014 collection.  Prior to the 2014 capture, Curbs were a subset of the Pavement Edge feature class but have been broken out into a seperate feature class in 2014. |
 | **Features Excluded** | Curbs inside Parking lots were not captured. | 
-| **Feature View** | <br><p align="center">![Curb](Images/FeatureViews.png/)</p> |Curb
+| **Feature View** | <br><p align="center">![Curb](Images/FeatureViews/Curb.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -263,7 +263,7 @@ The following attribute information applies to all feature classes.  Additional 
 <br>
 #### Elevation Diagrams
 
-<p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram.png)</p>
+<br><p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram.png)</p>
 
 [Back to Table of Contents](#table-of-contents)
 
