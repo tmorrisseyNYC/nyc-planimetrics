@@ -326,7 +326,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
-**Subtypes:** [Lake/Reservoir](#subtype-lake/reservoir), [Pond](#subtype-pond), [River](#subtype-river), [Stream](#subtype-stream), [Wetland/Marsh](#subtype-wetland/marsh), [Beach/Shoreline](#subtype-beach/shoreline), and [Bay/Ocean](#subtype-bay/ocean)
+**Subtypes:** [Lake/Reservoir](#subtype-lakereservoir), [Pond](#subtype-pond), [River](#subtype-river), [Stream](#subtype-stream), [Wetland/Marsh](#subtype-wetlandmarsh), [Beach/Shoreline](#subtype-beachshoreline), and [Bay/Ocean](#subtype-bayocean)
 
 [**Attributes**](#hydrography-attributes)<br>
 <br>
