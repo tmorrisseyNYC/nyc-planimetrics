@@ -1092,8 +1092,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated open cut depression railroad centerlines. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a |  
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![Depression_RR](Images/Photos/Depression_RR.JPG)</p> |<br><br>
+| **Feature View** | <br><p align="center">![Depression_RR](Images/FeatureViews/Depression_RR.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
