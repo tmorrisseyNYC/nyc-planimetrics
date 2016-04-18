@@ -1162,8 +1162,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated all elevated subway and train stations, and their platforms. |
 | **Capture Notes** | Roof outlines were delineated to include any underlying stairways. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![RR_Elev_sta](Images/Photos/RR_Elev_sta.JPG)</p> |<br><br>
+| **Feature View** | <br><p align="center">![RR_Elev_sta](Images/FeatureViews/RR_Elev_sta.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
