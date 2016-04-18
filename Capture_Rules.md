@@ -1149,7 +1149,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated all stand-alone subway and train stations, and their platforms.<br><br> These structures were found on terrain level or lower. |
 | **Capture Notes** | Roof outlines were delineated to include any underlying stairways. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![RR_sta](Images/FeatureViews/RR_sta.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1163,7 +1163,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Capture Notes** | Roof outlines were delineated to include any underlying stairways. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
+| **Photo** | <br><p align="center">![RR_Elev_sta](Images/Photos/RR_Elev_sta.JPG)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
@@ -1175,7 +1175,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Ventilation grates were be captured throughout the city. |
 | **Capture Notes** | These locations are not dependent on vicinity to subway centerline. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![RR_Vent](Images/FeatureViews/RR_Vent.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1188,7 +1188,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated all emergency exits on railroad structures. |
 | **Capture Notes** | Usually identified as painted yellow plates/grates for subways. Used ROW of existing subway centerlines as guide. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![RR_Exit](Images/FeatureViews/RR_Exit.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1201,7 +1201,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated all transit entrances.  |
 | **Capture Notes** | Usually identified as painted stairs for subways.  Used ROW of existing subway centerlines as guide. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![RR_Entrance](Images/FeatureViews/RR_Entrance.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
