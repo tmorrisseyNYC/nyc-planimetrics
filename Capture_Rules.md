@@ -1040,7 +1040,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated railroad centerlines. |
 | **Capture Notes** | All visible railroad centerlines were collected/updated.<br><br>Hidden railroad centerlines (in tunnels) were copied from existing data with no elevation value or change. |
 | **Features Excluded** | n/a |  
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![RR](Images/FeatureViews/RR.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1053,7 +1053,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated elevated railroad centerlines. |
 | **Capture Notes** | No elevation value was calculated. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Elevated_RR](Images/FeatureViews/Elevated_RR.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1066,7 +1066,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated embankment railroad centerlines. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Embankment_RR](Images/FeatureViews/Embankment_RR.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1079,7 +1079,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated viaduct railroad centerlines. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a |  
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Viaduct_RR](Images/FeatureViews/Viaduct_RR.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1093,7 +1093,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a |  
 | **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
+| **Photo** | <br><p align="center">![Depression_RR](Images/Photos/Depression_RR.JPG)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
@@ -1105,7 +1105,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Updated open railway fence lines. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a |
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Railway_Fence](Images/FeatureViews/Railway_Fence.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
