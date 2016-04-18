@@ -1509,8 +1509,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All bike shelters on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![Bike_Shelter](Images/Photos/Bike_Shelter.JPG)</p> |<br><br>
+| **Feature View** | <br><p align="center">![Bike_Shelter](Images/FeatureViews/Bike_Shelter.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
