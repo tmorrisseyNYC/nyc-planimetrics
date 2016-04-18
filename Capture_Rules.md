@@ -888,7 +888,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Updated all segments between pavement and other surfaces or features (i.e. Curbs, sidewalks, or grass).  |
 | **Capture Notes** | Each segment was captured as a continuous feature across a blockface (typically from one intersection to the next – along that side of the road). <br><br>The vertex between two segments was often located at the street corner. Edge of Pavement features are continuous across driveways, alleys, or access to parking. The one exception to this rule is where a street segment changes names (as determined by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> Centerline names) outside of any street intersections.  In these cases, the existing CSCL break (node) was used to create corresponding breaks in Pavement Edge segments.<br><br>For cul-de-sacs, two segments were created. The CSCL centerline was used to define the breakpoints of the Pavement Edge segments.<br><br>Dead end streets were terminatde where the tax map crosses the road.  Two segments were created on left and right sides of CSCL.<br><br>On highways, Pavement Edge corresponds to the ‘roadbed’ sub-feature class in [Roadbed](#roadbed), and does not include the shoulder. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Road_Edge](Images/FeatureViews/Road_Edge.jpg)</p> |
+| **Feature View** | <br><p align="center">![Road_Edge](Images/FeatureViews/Road_Edge.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -901,7 +901,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | The outer-edge of all paved features associated with airports, including runways, taxiways and aprons. |
 | **Capture Notes** | The features often share an edge with a building feature. Airport features were collected up to the surrounding fence or gates. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Airport](Images/FeatureViews/Airport.jpg)</p> |
+| **Feature View** | <br><p align="center">![Airport](Images/FeatureViews/Airport.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -914,7 +914,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | These features represent a narrow unnamed street that allows access to buildings/garages other than from the road. When captured, these features were snapped to the road edge. |
 | **Capture Notes** | These feature typically allow access to the interior of a block or to the back of a house.  As a general rule of thumb, the <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> value of: RW_TYPE=10 was used to determine the alley pavement edge.  However, there were still alleys captured that did not have this field attribute value from the CSCL. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Alley](Images/FeatureViews/Alley.jpg)</p> |
+| **Feature View** | <br><p align="center">![Alley](Images/FeatureViews/Alley.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1471,9 +1471,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All bus shelters on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | These features must be semi-enclosed, with a roof structure. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![Bus_Shelter](Images/Photos/Bus_Shelter.jpg)</p> |<br><br>
-[Back to Table of Contents](#table-of-contents)
+| **Feature View** | <br><p align="center">![Bus_Shelter](Images/FeatureViews/Bus_Shelter.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 
 <br>
 ### Subtype: NEWSSTANDS
@@ -1484,7 +1483,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All newsstands on sidewalk and within a 10ft buffer from sidewalk. Free standing, rectangular booth typicaly with an overhanging roof. |
 | **Capture Notes** | Only base of structure captured, not the roof overhang (when present). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Newsstand](Images/FeatureViews/Newsstand.jpg)</p> |
+| **Feature View** | <br><p align="center">![Newsstand](Images/FeatureViews/Newsstand.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1497,7 +1496,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All automatic pay toilets on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Toilet](Images/FeatureViews/ToiletToilet)</p> |
+| **Feature View** | <br><p align="center">![Toilet](Images/FeatureViews/Toilet.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1511,7 +1510,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![Bike_Shelter](Images/Photos/Bike_Shelter.jpg)</p> |<br><br>
+| **Photo** | <br><p align="center">![Bike_Shelter](Images/Photos/Bike_Shelter.JPG)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
@@ -1523,7 +1522,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All bike corrals on sidewalks and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Stands for bicycles were not captured.  | 
-| **Feature View** | <br><p align="center">![Bike_Corral](Images/FeatureViews/Bike_Corral.jpg)</p> |
+| **Feature View** | <br><p align="center">![Bike_Corral](Images/FeatureViews/Bike_Corral.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1536,7 +1535,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All planters where all of its sides are 3’ or greater. |
 | **Capture Notes** | Planters were captured only if on sidewalks and within a 10ft buffer from sidewalk. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Planters](Images/FeatureViews/Planters.jpg)</p> |
+| **Feature View** | <br><p align="center">![Planters](Images/FeatureViews/Planters.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1549,7 +1548,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All information kiosks on sidewalk and within a 10ft buffer from sidewalk.<br><br>Rectangular, free-standing booths at that are at least 10 square feet. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Freestanding information boards or signs were not captured. | 
-| **Feature View** | <br><p align="center">![Info_Kiosk](Images/FeatureViews/Info_Kiosk.jpg)</p> |
+| **Feature View** | <br><p align="center">![Info_Kiosk](Images/FeatureViews/Info_Kiosk.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1585,7 +1584,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Structures erected over obstacles for road traffic (road, railroad, hydrography). Bridge deck outlined from joint to joint when on-and off-ramp(s) are on ground.  Large bridges with on-ramps and off-ramps were collected from point elevation begins (bridge elevation subype. |
 | **Capture Notes** | Features can overlap so that bridge is not split where it crosses another bridge feature. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Bridge](Images/FeatureViews/Bridge.jpg)</p> |
+| **Feature View** | <br><p align="center">![Bridge](Images/FeatureViews/Bridge.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1598,7 +1597,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Used tunnel portal to digitize. |
 | **Capture Notes** | Maintained delineation from existing data when available. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Tunnel](Images/FeatureViews/Tunnel.jpg)</p> |
+| **Feature View** | <br><p align="center">![Tunnel](Images/FeatureViews/Tunnel.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1611,7 +1610,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Structure erected over obstacle for railroad traffic (road, railroad, hydrography). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Rail_Bridge](Images/FeatureViews/Rail_Bridge.jpg)</p> |
+| **Feature View** | <br><p align="center">![Rail_Bridge](Images/FeatureViews/Rail_Bridge.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1624,7 +1623,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Strutures allowing pedestrians/bicycles to cross transportation features.  |
 | **Capture Notes** | Where applicable, outline includes stairs.  Can connect between buildings (snapped to building footprint). |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Ped_Bridge](Images/FeatureViews/Ped_Bridge.jpg)</p> |
+| **Feature View** | <br><p align="center">![Ped_Bridge](Images/FeatureViews/Ped_Bridge.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1637,7 +1636,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Bridge composed of several small arches, mostly over water. |
 | **Capture Notes** | Visible changeover from solid ground to viaduct is outlined. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![RR_Viaduct](Images/FeatureViews/RR_Viaduct.jpg)</p> |
+| **Feature View** | <br><p align="center">![RR_Viaduct](Images/FeatureViews/RR_Viaduct.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1650,8 +1649,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Structure erected over road, whereas the lower road has been excavated and has retaining walls on the side. |
 | **Capture Notes** | Overpass is at terrain level. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
-| **Photo** | <br><p align="center">![Overpass](Images/Photos/Overpass.jpg)</p> |<br><br>
+| **Feature View** | <br><p align="center">![Overpass](Images/FeatureViews/Overpass.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
