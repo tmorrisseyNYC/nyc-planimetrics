@@ -668,7 +668,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline the outer perimeter of any park from <a href="https://data.cityofnewyork.us/City-Government/Parks-Properties/rjaj-zgq7/about">DPR Parks Properties</a>.<br><br>The boundary encompasses the entire park as a single polygon feature, regardless of special features such as baseball diamonds or tennis courts.<br><br>The delineation of the outer edge of each park boundary is coincident with the “intended” boundary feature, as determined by the Parks Department. Intended boundary feature are curbs, green areas, sidewalks, etc. and vary from park to park.  At times, the intended boundary feature varies within the same park.  |
 | **Capture Notes** | When the source data had a single boundary polygon extending across other planimetric features (e.g. roads), the planimetric park boundary follows the source data.<br><br>When there was no apparent physical boundary feature to delineate the Park boundary, the feature was copied “as is” from the source database.<br><br>Park names (SIGNNAME and source column) and park numbers (GISPROPNUM source column) were transferred from source databases to park boundaries and special features.<br><br>Interior road systems and special features within parks were not partitioned. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Park](Images/FeatureViews/Park.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -681,7 +681,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of the sandy area (diamond) in softball/baseball fields. |
 | **Capture Notes** |  These features can have different sizes and can be also be represented as painted areas on hard surfaces.<br><br>These features extend back to the backstop of the field and include the 1st and 3rd base coaching boxes. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Baseball](Images/FeatureViews/Baseball.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -694,7 +694,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of individual basketball courts. |
 | **Capture Notes** |  These features can be represented as full or half courts. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Basketball](Images/FeatureViews/Basketball.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -707,7 +707,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of handball courts. |
 | **Capture Notes** | The hard surface wall was incorporated witin each court. When multiple courts are adjacent to one another, a  division line was digitized to partition individual courts. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Handball](Images/FeatureViews/Handball.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -720,7 +720,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of multipurpose fields. |
 | **Capture Notes** |  These features are composed of mostly hard surface areas with different markings for different activities. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Court_Multipurpose](Images/FeatureViews/Court_Multipurpose.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -733,7 +733,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of tennis courts (hard surface only). |
 | **Capture Notes** | In cases of multiple courts, a division line was digitized along outer painted line (baseline and sideline) to partition individual courts.<br><br>The extent of these features only includes "in-bounds areas", they do not extend to the fence surrounding the tennis court area (or related "out-of-bounds areas". |
 | **Features Excluded** | Tennis courts within NYC Parks were not captured.<br><br>Private tennis courts (e.g., on roofs of hotels, etc.) were not captured. | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Tennis](Images/FeatureViews/Tennis.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -746,7 +746,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of volleyball courts using distinct markings on observed hard surface. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Volleyball](Images/FeatureViews/Volleyball.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -759,7 +759,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of football fields. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Football](Images/FeatureViews/Football.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -772,7 +772,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of soccer fields. |
 | **Capture Notes** |  Outline is represent by extent of grassy surface. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Soccer](Images/FeatureViews/Soccer.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -785,7 +785,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of golf courses along fence or other man-made boundary. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | The outline of greens, tees, fairways, sand traps, shelters, or cart paths were not captured. | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Golf](Images/FeatureViews/Golf.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -798,7 +798,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of public pool areas. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Pool](Images/FeatureViews/Pool.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -811,7 +811,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of running tracks, typically around grassy sport fields. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Tracks painted upon concrete surfaces were not captured. | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Track](Images/FeatureViews/Track.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -824,7 +824,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of skating/hockey rinks using distinct markings on observed hard surface. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Skating_Rink](Images/FeatureViews/Skating_Rink.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -837,7 +837,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Using <a href="https://data.cityofnewyork.us/Environment/Greenstreets/p23h-ci72">DPR Greenstreets</a> as the definitive source, these areas were updated and attributed using the source data. Name was populated from the SITENAME source column and park numbers were populated from the GISPROPNUM source column. |
 | **Capture Notes** | All the rules for defining park boundaries were applied for defining Greenstreet limits. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Greenstreet](Images/FeatureViews/Greenstreet.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
