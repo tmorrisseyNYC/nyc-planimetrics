@@ -554,7 +554,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | All billboards (including those found on rooftops), with three foot standard width. |
 | **Capture Notes** | These features are represented with multiple shapes (triangle, V- shaped, etc.). |
 | **Features Excluded** | Support structures were not included as part of these features. | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Billboard](Images/FeatureViews/Billboard.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -567,7 +567,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Traffic information strutures that cross traffic lanes. |
 | **Capture Notes** | These features were digitized end-to-end, with seven foot standard width. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Sign_Gantry](Images/FeatureViews/Sign_Gantry.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -580,7 +580,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Roof outline of toll plaza buildings (tool booths), regardless of size. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Toll_Plaza](Images/FeatureViews/Toll_Plaza.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -611,7 +611,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Updated cemetery boundaries from new imagery. |
 | **Capture Notes** | Individual headstones, graves, or interior boundaries were not partitioned. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Cemetery](Images/FeatureViews/Cemetery.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -624,7 +624,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of recreational areas which may be used for picnic or other recreational activities. Recreational areas must contain at least one of the following:<br>&nbsp;&nbsp;&nbsp;a) Benches,<br>&nbsp;&nbsp;&nbsp;b) Swings, or<br>&nbsp;&nbsp;&nbsp;c) Play area<br><br>Hardscape recreation areas were collected differently than softscape recreational areas, as follows:<br><br>• Hardscape recreational areas have either hard surfaces or sand. These areas were captured as discrete polygons following the edges of these areas precisely.<br><br>• Softscape recreational areas are grassy areas for football/baseball/other. These areas were captured as a single polygon (i.e., not discrete polygons) and snapped to other features (e.g. sidewalks, roadbed, hydro, etc.) where applicable.<br><br>When hardscapes and softscapes exists adjacent to one another, the entire area was captured by a single polygon. |
 | **Capture Notes** | These features are entirely outside the limits of NYC designated parks. Instead, these include areas such as Brooklyn Bridge Park and the High Line. |
 | **Features Excluded** | Medians with either benches, swings, or play areas were captured as a median and not a recreational area. |
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Recreation_Area](Images/FeatureViews/Recreation_Area.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -637,7 +637,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | These features represent a vacant lot where a building could potentially be built and is associated with a tax lot polygon. |
 | **Capture Notes** | "Vacant" is defined herein as an area containing no structures.<br><br>The DTM and currently captured planimetrics ([Building Footprints](#building-footprints)) were used to determine the location of the vacant areas.<br><br>The actual shape of each vacant aras was captured using physical features that typically form the boundary of a property such as fences, hedgerow, etc.<br><br>Vacant Areas extend to sidewalk or roadbed edge. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Vacant_Area](Images/FeatureViews/Vacant_Area.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1264,7 +1264,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Roadbed represents the interior polygon of pavement edge. The edges of these features are coincident with the linear feature class [Pavement Edge](#pavement-edge). |
 | **Capture Notes** | Converging roadbeds were not split when it crossing one another at different elevations (e.g. on ramps that cross each other). Roadbed was usually cut by [Median](#median) features (e.g., curb & grass) with the exception of painted, barrier and fence medians. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Roadbed](Images/FeatureViews/Roadbed.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1277,7 +1277,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Portion of roadbed where three (3) or more roadways meet up with one another.  Intersections were composed using features compiled and updated in [Pavement Edge](#pavement-edge). |
 | **Capture Notes** | Special care was applied at intersections with a slight offset to ensure that such areas were captured and attributed as an intersection.<br><br>The location where two alleys meet is considered an intersection and was captured as intersection roadbed. |
 | **Features Excluded** | When two (2) roadways form a “T”, the ending road was closed off so that the continuing roadbed edge forms a straight line (in [Pavement Edge](#pavement-edge)). Not, these "T" locations were not captured as intersection roadbed. | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Intersection](Images/FeatureViews/Intersection.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1290,7 +1290,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All driveways > 200 feet in length and a minimum width of eight feet.  |
 | **Capture Notes** | These driveways may service one or multiple homes and there is no distiction between paved or unpaved surfaces. Driveways were compiled from [Pavement Edge](#pavement-edge).<br><br>Since Driveways have centerlines, if the corresponding <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> has a name, that name is part of the main roadbed feature code. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Driveway](Images/FeatureViews/Driveway.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1303,7 +1303,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All shoulders on the roadway that may be used as a “break-down” area for vehicles or used by emergency vehicles to pass traffic. Shoulders are paved or gravel areas outside of the travel lane (as determined by paint markings) suitable for emergency vehicles to pass. |
 | **Capture Notes** | Shoulders were collected along highways (as determined by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> “RW_TYPE” = 2, 3, or 9 and excluding “SEGMENT_TYPE" = G or F.) only. <br><br>A curb separating an elevated paved surface from the roadway and between the roadway and a barrier median is a shoulder. <br><br>Painted areas are considered shoulders. Should a painted shoulder area be tapered, the entire shoulder was captured as long as the shape was at least 8 feet wide. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![](Images/FeatureViews/)</p> |
+| **Feature View** | <br><p align="center">![Shoulder](Images/FeatureViews/Shoulder.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
