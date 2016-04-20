@@ -198,6 +198,8 @@ The following attribute information applies to all feature classes.  Additional 
 [**Attributes**](#elevation-attributes)<br>
 
 [**Diagrams**](#elevation-diagrams)<br>
+
+*Note: The vertical accuracy was set to the following standard:  ASPRS 1”=100’ Class 2).*<br>
 <br>
 ### Subtype: BUILDING ELEVATION
 
@@ -362,7 +364,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery. |
 | **Features Captured** | n/a |
-| **Capture Notes** | Updated all river whenever new conditions were encountered (e.g., due to piers, etc.).  Maintained internal divisions of river due to name change(s). |
+| **Capture Notes** | Updated all river whenever new conditions were encountered (e.g., due to piers, etc.).  Maintained internal divisions of river due to name change(s).  Existing hydrographic centerlines were used as reference but were not updated. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![River](Images/FeatureViews/River.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -438,6 +440,8 @@ The following attribute information applies to all feature classes.  Additional 
 **Subtypes:** [Median_Painted](#subtype-median_painted), [Median_Curb](#subtype-median_curb), [Median_Rail](#subtype-median_rail), [Median_Fence](#subtype-median_fence), [Median_Grass](#subtype-median_grass), and [Median_Barrier](#subtype-median_barrier)
 
 [**Attributes**](#median-attributes)<br>
+
+*Rule: <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> does not intersect median of same road except in rare occasions (e.g. at street intersections with medians). Median type hierarchy is as follows: barrier, rail, fence, curb, grass and painted.*<br>
 <br>
 ### General Guidelines for Medians
 
@@ -445,7 +449,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | All medians that physically divide a roadbed were collected, which include medians, traffic islands, "Jersey Barriers", and painted areas that are used to separate the traffic flow. |
-| **Capture Notes** | Medians are sometimes paved, are normally elevated (have a curb), or may have dirt or grass.<br><br>Medians can have sidewalks crossing them. In those cases, the outline of the largest area was incorporated into a single median feature.<br><br>The NYC online Bike Lane data was used as a reference to identify potential new medians. Areas where the column ALLCLASSES is equal to I and "I,II" most often contained new medians. New Medians exist throughout the City regardless of these bike lane classifications. Thus, this was considered a supplemental source only. |
+| **Capture Notes** | Medians are sometimes paved, are normally elevated (have a curb), or have dirt or grass.<br><br>Medians can have sidewalks crossing them. In those cases, the outline of the largest area was incorporated into a single median feature.<br><br>The NYC online <a href="https://data.cityofnewyork.us/Transportation/Bike-Routes/umu5-zyd3">Bike Routes</a> data was used as a reference to identify potential new medians. Areas where the column ALLCLASSES is equal to I and "I,II" most often contained new medians. New Medians exist throughout the City regardless of these bike lane classifications. Thus, this was considered a supplemental source only. |
 | **Features Excluded** | The following features were not captured as medians:<br>&nbsp;&nbsp;&nbsp;• Barriers in front of buildings,<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to regulate traffic in construction areas, or<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to block-off road access. |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
