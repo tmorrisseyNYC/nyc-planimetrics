@@ -500,7 +500,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Medians with fencing.   |
 | **Capture Notes** | n/a |
-| **Features Excluded** | If feature respresents a Jersey Barrier with fencing, the feature was collected as a Jersey barrier. | 
+| **Features Excluded** | If feature represents a Jersey Barrier with fencing, the feature was collected as a Jersey barrier. | 
 | **Feature View** | <br><p align="center">![Median_Fence](Images/FeatureViews/Median_Fence.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -555,7 +555,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | All billboards (including those found on rooftops), with three foot standard width. |
+| **Features Captured** | All billboards (including those found on rooftops), with three (3) foot standard width. |
 | **Capture Notes** | These features are represented with multiple shapes (triangle, V- shaped, etc.). |
 | **Features Excluded** | Support structures were not included as part of these features. | 
 | **Feature View** | <br><p align="center">![Billboard](Images/FeatureViews/Billboard.JPG)</p> |
@@ -569,7 +569,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Traffic information strutures that cross traffic lanes. |
-| **Capture Notes** | These features were digitized end-to-end, with seven foot standard width. |
+| **Capture Notes** | These features were digitized end-to-end, with seven (7) foot standard width. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Sign_Gantry](Images/FeatureViews/Sign_Gantry.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -639,7 +639,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing data Digital Tax Map (DTM). |
 | **Features Captured** | These features represent a vacant lot where a building could potentially be built and is associated with a tax lot polygon. |
-| **Capture Notes** | "Vacant" is defined herein as an area containing no structures.<br><br>The DTM and currently captured planimetrics ([Building Footprints](#building-footprints)) were used to determine the location of the vacant areas.<br><br>The actual shape of each vacant aras was captured using physical features that typically form the boundary of a property such as fences, hedgerow, etc.<br><br>Vacant Areas extend to sidewalk or roadbed edge. |
+| **Capture Notes** | "Vacant" is defined herein as an area containing no structures.<br><br>The Digital Tax Map (DTM) and currently captured planimetrics ([Building Footprints](#building-footprints)) were used to determine the location of the vacant areas.<br><br>The actual shape of each vacant aras was captured using physical features that typically form the boundary of a property such as fences, hedgerow, etc.<br><br>Vacant Areas extend to sidewalk or roadbed edge.<br><br>As a general rule of thumb, vacant lots were required to have roadway frontage, and not actively used for private or public entities (e.g., backyard or commmunity garden). |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Vacant_Area](Images/FeatureViews/Vacant_Area.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -735,7 +735,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
 | **Features Captured** | Outline of tennis courts (hard surface only). |
-| **Capture Notes** | In cases of multiple courts, a division line was digitized along outer painted line (baseline and sideline) to partition individual courts.<br><br>The extent of these features only includes "in-bounds areas", they do not extend to the fence surrounding the tennis court area (or related "out-of-bounds areas". |
+| **Capture Notes** | In cases of multiple courts, a division line was digitized along outer painted line (baseline and sideline) to partition individual courts.<br><br>The extent of these features only includes "in-bounds areas", they do not extend to the fence surrounding the tennis court area (or related "out-of-bounds areas"). |
 | **Features Excluded** | Tennis courts within NYC Parks were not captured.<br><br>Private tennis courts (e.g., on roofs of hotels, etc.) were not captured. | 
 | **Feature View** | <br><p align="center">![Tennis](Images/FeatureViews/Tennis.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -760,7 +760,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
-| **Features Captured** | Outline of football fields. |
+| **Features Captured** | Outline of football fields.<br><br>The extent of these features only includes "in-bounds areas", they do not extend to the turf surrounding the playing field (or related "out-of-bounds areas"). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Football](Images/FeatureViews/Football.JPG)</p> |
@@ -863,12 +863,14 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
+*Note: Parking lot outlines were often interected by sidewalks, but only at the entrance and exit.*<br>
+
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | All parking lots (paved or unpaved) greater than 2,000 sq. feet.<br><br>Parking areas adjacent to the travel-way and separated from the travel-way by a curb or other obstruction were captured as parking lots. In these cases, the [Roadbed](#roadbed) and [Pavement Edge](#pavement-edge) end or wrap around the parking lot. The parking lot is not included as part of the Roadbed. |
 | **Capture Notes** | These features connect to road edge ([Curb](#curb) or [Edge of Pavement](#subtype-edge-of-pavement)) only at entrances and exits. |
-| **Features Excluded** | Traffic islands within parking lot were not captured.<br><br>When a building of > 400 sq. feet was present, the building area was excluded from the parking lot polygon.<br><br>Parking areas adjacent to the travel-way, but not separated from the travel-way by a curb or other obstruction, were not captured.  Instead, those parking areas were included as part of the Roadbed and the Pavement Edge extends to the outside edge of such area.  | 
+| **Features Excluded** | Traffic islands within parking lot were not captured.<br><br>When a building of > 400 sq. feet was present, the building area was excluded from the parking lot polygon.<br><br>Parking areas adjacent to the travel-way, but not separated from the travel-way by a curb or other obstruction, were not captured.  Instead, those parking areas were included as part of the Roadbed and the Pavement Edge extends to the outside edge of such area.<br><br>Gas stations, private parking areas (e.g., for condos), and storage areas (e.g., for boats) were not captured.  | 
 | **Feature View** | <br><p align="center">![Parking_Lot](Images/FeatureViews/Parking_Lot.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -945,7 +947,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 #####1. BlockfaceID conflation from Pavement Edge to CSCL - Rule for missing CSCL
 
-• If no <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature existed on an existing roadbed with Pavement Edge, the production team broke down the Pavement Edge as needed on the approximated center of where a CSCL Centerline and then assigned L/R BlockfaceIDs to the Pavement Edge.  However, these BlockfaceIDs were not conflated to any CSCL segments (and these Pavement Edge features were flagged as having a BlockfaceID that was not conflated to CSCL).<br>
+• If no <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature existed on an existing roadbed with Pavement Edge, the production team broke down the Pavement Edge as needed on the approximated center of where a CSCL Centerline.  The team then assigned Left and Right (L/R) BlockfaceIDs to the Pavement Edge.  However, these BlockfaceIDs were not conflated to any CSCL segments (and these Pavement Edge features were flagged as having a BlockfaceID that was not conflated to CSCL).<br>
 
 **The following are examples of where CSCL is missing and PavementEdge exists.**
 
