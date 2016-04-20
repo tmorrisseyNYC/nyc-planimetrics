@@ -628,7 +628,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of recreational areas which may be used for picnic or other recreational activities. Recreational areas must contain at least one of the following:<br>&nbsp;&nbsp;&nbsp;a) Benches,<br>&nbsp;&nbsp;&nbsp;b) Swings, or<br>&nbsp;&nbsp;&nbsp;c) Play area<br><br>Hardscape recreation areas were collected differently than softscape recreational areas, as follows:<br><br>• Hardscape recreational areas have either hard surfaces or sand. These areas were captured as discrete polygons following the edges of these areas precisely.<br><br>• Softscape recreational areas are grassy areas for football/baseball/other. These areas were captured as a single polygon (i.e., not discrete polygons) and snapped to other features (e.g. sidewalks, roadbed, hydro, etc.) where applicable.<br><br>When hardscapes and softscapes exists adjacent to one another, the entire area was captured by a single polygon. |
 | **Capture Notes** | These features are entirely outside the limits of NYC designated parks. Instead, these include areas such as Brooklyn Bridge Park and the High Line. |
 | **Features Excluded** | Medians with either benches, swings, or play areas were captured as a median and not a recreational area. |
-| **Feature View** | <br><p align="center">![Recreation_Area](Images/FeatureViews/Recreation_Area.JPG)</p> |
+| **Feature View** | <br><p align="center">![Recreation_Area](Images/FeatureViews/Recreation_Area.JPG)<br>This screenshot represents a softscape recreation area.</p><br><p align="center">![Recreation_Area_2](Images/FeatureViews/Recreation_Area_2.JPG)<br>This screenshot represents a hardscape recreation area.</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -828,7 +828,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Outline of skating/hockey rinks using distinct markings on observed hard surface. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Skating_Rink](Images/FeatureViews/Skating_Rink.JPG)</p> |
+| **Feature View** | <br><p align="center">![Skating_Rink](Images/FeatureViews/Skating_Rink_2.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
