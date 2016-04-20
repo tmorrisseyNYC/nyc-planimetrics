@@ -119,7 +119,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery.<br><br>The existing DoITT building database was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
-| **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “even million" BIN was assigned to buildings (under construction) not existing in the source database. |
+| **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “even million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
 | **Feature View** | <br><p align="center">![Build_UC](Images/FeatureViews/Build_UC.png)</p> |
