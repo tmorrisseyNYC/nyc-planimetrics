@@ -969,7 +969,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 <br><p align="center">![PE_Diagram_2_1](Images/FeatureViews/PE_Diagram_2_1.png)</p> 
 <br>
-<br><p align="center">![PE_Diagram_2_2](Images/FeatureViews/PE_Diagram_2_2.png)</p> 
+<br><p align="center">![PE_Diagram_2_2](Images/FeatureViews/PE_Diagram_2_2a.JPG)</p> 
 <br>
 <br><p align="center">![PE_Diagram_2_3](Images/FeatureViews/PE_Diagram_2_3.png)</p> 
 
@@ -1179,7 +1179,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Ventilation grates were be captured throughout the city. |
-| **Capture Notes** | These locations are not dependent on vicinity to subway centerline. |
+| **Capture Notes** | These locations are not dependent on vicinity to subway centerline or subway entrance / exit. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![RR_Vent](Images/FeatureViews/RR_Vent.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -1234,7 +1234,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Walls that retain earth from falling on transportation features. |
+| **Features Captured** | Walls that retain earth from falling on transportation features with a height of ten (10) feet or greater. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Walls in backyards used for landscape were not captured.<br><br>Walls in areas under construction (excavation) were not captured. | 
 | **Feature View** | <br><p align="center">![Retaining_Wall_1](Images/FeatureViews/Retaining_Wall_1.png)</p> |
@@ -1268,7 +1268,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Roadbed represents the interior polygon of pavement edge. The edges of these features are coincident with the linear feature class [Pavement Edge](#pavement-edge). |
-| **Capture Notes** | Converging roadbeds were not split when it crossing one another at different elevations (e.g. on ramps that cross each other). Roadbed was usually cut by [Median](#median) features (e.g., curb & grass) with the exception of painted, barrier and fence medians. |
+| **Capture Notes** | Converging roadbeds were not split when it crossing one another at different elevations (e.g. on ramps that cross each other). Roadbed was usually cut by [Median](#median) features (e.g., curb & grass) with the exception of painted, barrier and fence medians.<br><br>Special care was applied to ensure that the shoulder on highways was not confused as a sidewalk. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Roadbed](Images/FeatureViews/Roadbed.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -1281,8 +1281,8 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Portion of roadbed where three (3) or more roadways meet up with one another.  Intersections were composed using features compiled and updated in [Pavement Edge](#pavement-edge). |
-| **Capture Notes** | Special care was applied at intersections with a slight offset to ensure that such areas were captured and attributed as an intersection.<br><br>The location where two alleys meet is considered an intersection and was captured as intersection roadbed. |
-| **Features Excluded** | When two (2) roadways form a “T”, the ending road was closed off so that the continuing roadbed edge forms a straight line (in [Pavement Edge](#pavement-edge)). Not, these "T" locations were not captured as intersection roadbed. | 
+| **Capture Notes** | Special care was applied at intersections with a slight offset to ensure that such areas were captured and attributed as an intersection.<br><br>The location where two alleys meet is considered an intersection and was captured as intersection roadbed.<br><br>Intersection polygons were created by establishing the shortest distance from the intersection node to [**Pavement Edge**](#pavement-edge). |
+| **Features Excluded** | When two (2) roadways form a “T”, the ending road was closed off so that the continuing roadbed edge forms a straight line (in [Pavement Edge](#pavement-edge)). Note, these "T" locations were not captured as intersection roadbed. | 
 | **Feature View** | <br><p align="center">![Intersection](Images/FeatureViews/Intersection.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -1355,7 +1355,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | All paved sidewalks for all interior sidewalk that are located interior to the ROW. |
-| **Capture Notes** | The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel.<br><br>In areas of construction, sidewalks were collected along an imaginary line to complete polygon.<br><br>In areas where equipment is stored or installed on sidewalk, the full extent of sidewalk was approximated.<br><br>In areas where protection or scaffolding (pedestrian protection from overhead construction) is placed over sidewalk, sidewalk remained unchanged from existing data (not updated). |
+| **Capture Notes** | The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel.<br><br>In areas of construction, sidewalks were collected along an imaginary line to complete polygon.<br><br>In areas where equipment is stored or installed on sidewalk, the full extent of sidewalk was approximated.<br><br>In areas where protection or scaffolding (pedestrian protection from overhead construction) is placed over sidewalk, sidewalk remained unchanged from existing data (not updated).<br><br> Since the intended purpose of such feature is to support emergency through travel, any spurs or dead-ends (e.g., walkways leading to a building) were not captured.  These features were captured in the following areas: <br>&nbsp;&nbsp;&nbsp;1. NYC Parks<br>&nbsp;&nbsp;&nbsp;2.  NYCHA Properties<br>&nbsp;&nbsp;&nbsp;3.  Other Residential areas<br>&nbsp;&nbsp;&nbsp;4.  Hospital campuses<br>&nbsp;&nbsp;&nbsp;5.  School campuses<br>&nbsp;&nbsp;&nbsp;6.  Federal Forts<br><br>These features were not captured in office parks or other similar commercial areas.<br><br>Interior sidewalks followed the same general capture rule guidelines as the ROW sidewalk as to how they interact with the surrounding features. |
 | **Features Excluded** | Openings in sidewalk (for landscaping and trees) were not captured. | 
 | **Feature View** | <br><p align="center">![Sidewalk_2](Images/FeatureViews/Sidewalk_2.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -1587,7 +1587,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | **Source Databases** | Newly collected from 2014 imagery. |
-| **Features Captured** | Structures erected over obstacles for road traffic (road, railroad, hydrography). Bridge deck outlined from joint to joint when on-and off-ramp(s) are on ground.  Large bridges with on-ramps and off-ramps were collected from point elevation begins (bridge elevation subype. |
+| **Features Captured** | Structures erected over obstacles for road traffic (road, railroad, hydrography). Bridge deck outlined from joint to joint when on-and off-ramp(s) are on ground.  Large bridges with on-ramps and off-ramps were collected from point elevation begins (bridge elevation subtype). |
 | **Capture Notes** | Features can overlap so that bridge is not split where it crosses another bridge feature. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Bridge](Images/FeatureViews/Bridge.JPG)</p> |
