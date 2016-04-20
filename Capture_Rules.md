@@ -199,7 +199,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 [**Diagrams**](#elevation-diagrams)<br>
 
-*Note: The vertical accuracy was set to the following standard:  ASPRS 1”=100’ Class 2).*<br>
+*Note: The vertical accuracy was set to the following standard:  ASPRS 1”=100’ Class 2.*<br>
 <br>
 ### Subtype: BUILDING ELEVATION
 
