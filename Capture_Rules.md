@@ -261,7 +261,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 <br>
 #### Elevation Diagrams
-<br><p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram.png)</p>
+<br><p align="center">![Elevation_Diagram](Images/FeatureViews/Elevation_Diagram_2.JPG)</p>
 
 [Back to Table of Contents](#table-of-contents)
 
