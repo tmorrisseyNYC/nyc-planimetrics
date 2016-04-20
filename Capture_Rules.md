@@ -1587,7 +1587,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | **Source Databases** | Newly collected from 2014 imagery. |
-| **Features Captured** | Structures erected over obstacles for road traffic (road, railroad, hydrography). Bridge deck outlined from joint to joint when on-and off-ramp(s) are on ground.  Large bridges with on-ramps and off-ramps were collected from point elevation begins (bridge elevation subtype). |
+| **Features Captured** | Structures erected over obstacles for road traffic (road, railroad, hydrography). Bridge deck outlined from joint to joint when on-and off-ramp(s) are on ground.  Large bridges with on-ramps and off-ramps were collected from bridge elevation points ([Bridge Elevation](#subtype-bridge-elevation)). |
 | **Capture Notes** | Features can overlap so that bridge is not split where it crosses another bridge feature. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Bridge](Images/FeatureViews/Bridge.JPG)</p> |
