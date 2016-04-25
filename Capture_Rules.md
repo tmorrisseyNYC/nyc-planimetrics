@@ -1392,7 +1392,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All Benches on sidewalks and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Benches within park boundaries were not captured, unless they are positioned within 10ft of sidewalk. | 
-| **Feature View** | <br><p align="center">![Bench](Images/FeatureViews/Bench.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1405,7 +1405,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All US Postal Mailboxes on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Must represnent feestanding public mail receptacle, typically painted blue. |
 | **Features Excluded** | Mailboxes built into a structure were not captured.<br><br>Mailboxes existing under any type of awning or overhead obstruction were not captured. | 
-| **Feature View** | <br><p align="center">![Mailbox](Images/FeatureViews/Mailbox.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1418,7 +1418,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All telephone booths on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Single or multiple phone locations were collected, some enclosed and some open. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Telephone](Images/FeatureViews/Telephone.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1431,7 +1431,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All munimeters on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Features must be free-standing units. |
 | **Features Excluded** | Curbside parking meters were not captured. | 
-| **Feature View** | <br><p align="center">![Munimeter](Images/FeatureViews/Munimeter.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1444,7 +1444,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All ticket vending machines on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Features must be free-standing units. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Vending](Images/FeatureViews/Vending.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1457,7 +1457,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Any fixed public seating on sidewalk, not included as a bench, were captured as street seats. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Street seats within park boundaries were not captured. | 
-| **Feature View** | <br><p align="center">![Seat](Images/FeatureViews/Seat.JPG)</p> |
+| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
