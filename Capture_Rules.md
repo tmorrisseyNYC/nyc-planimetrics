@@ -8,10 +8,15 @@ One of the core functions of the NYC Department of Information Technology and Te
 <br>
 ####Background<br>
 Planimetric mapping is the capture of geographic features from aerial survey (i.e., capture of aerial photography). Planimetrics are traditionally mapped in two dimensions and therefore are exclusive of elevation.  Quite simply planimetrics are the visible features that can be digitized from aerial photography. The planimetric database is composed of individual features each repressenting a different geographic or human-made phenomena. In their sum total, the planimetrics represent the base map for New York City.
-
 <br>
 ####Currency<br>
-The source imagery for the current planimetric update was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
+The source imagery for the current planimetric update was captured on the following dates: 
+<br>
+• Manhattan - June 24, 2014<br>
+• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>
+• Final delivery of all imagery – April 10, 2015<br>
+
+Based on models developed from the raw imagery and aerotriangulation, the planimetric features were updated, and in some cases captured new, for the entire City. The project began March 2015 and was completed February 2016.
 <br>
 ####Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
