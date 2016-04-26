@@ -169,7 +169,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **LAST_MODIFY_DATE** | Date that a building feature's geometry or attributes was last modified. |
 | **LAST_STATUS_TYPE** | The status of a building - "Constructed", "Marked for Construction", or "Marked for Demolition".  |
 | **DOITT_ID** | Unique numeric ID assigned by DoITT.  |
-| **LAST_STATUS_DATE** | Most recent data that a building status was changed. |
+| **LAST_STATUS_DATE** | Most recent date that a building status was changed. |
 | **HEIGHT_ROOF** | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. |
 | **DOB_JOB_NUM** | Job number from DOB_JOB table obtained from milestone reports.  |
 | **NUM_FLOORS** | Number of full and partial stories, starting from the ground floor as derived from PLUTO. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
