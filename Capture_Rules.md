@@ -18,7 +18,11 @@ The source imagery for the current planimetric update was captured on the follow
 
 Based on models developed from the raw imagery and aerotriangulation, the planimetric features were updated, and in some cases captured new, for the entire City. The project began March 2015 and was completed February 2016.
 <br>
-Previous planimetric captures are as follows:
+**Previous Captures**
+|     |     |     |
+| --- | --- | --- |
+| <p align="left">**Planimetric Delivery**</p> | <p align="left">**Year of Imagery**</p> | <p align="left">**Download**</p> |
+| 2000 | 1996 | Add url |
 
 ####Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
