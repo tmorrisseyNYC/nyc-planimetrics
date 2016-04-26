@@ -7,7 +7,7 @@ This document is intended to provide a dual purpose. For the capture of the spec
 One of the core functions of the NYC Department of Information Technology and Telecommunications (DoITT) GIS group is to maintain and distribute an accurate 'basemap' for NYC. Collectively, the basemap includes the digitial orthophotography and planimetric features. The basemap provides the foundation upon which virtually all other geospatial data within New York government is registered. Ensuring its completeness and accuracy is fundamental to the Group’s core mission.
 <br>
 ####Background<br>
-Planimetrics are...TBC
+Planimetric mapping is the capture of geographic features from aerial survey (i.e., capture of aerial photography). Planimetrics are traditionally mapped in two dimensions and therefore are exclusive of elevation.  Quite simply planimetrics are the visible features that can be digitized from aerial photography. The planimetric database is composed of individual features each repressenting a different geographic or human-made phenomena. In their sum total, the planimetrics represent the base map for New York City.
 
 <br>
 ####Currency<br>
