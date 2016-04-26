@@ -17,7 +17,11 @@ NYC DoITT first developed a planimetric database in 2000. The data was captured 
 4. and a classification scheme (i.e., feature codes).
 
 The delivery of the data was by 2,500′ x 2,500′ tiles, which directly corresponded to the orthophotography tiles.
+<br>
+####Updates<br>
+A subsequent ad-hoc update to the planimetric database was done in 2004. This update was based on aerial surveys from 2001 (Manhattan and Staten Island) and 2002 (Bronx, Brooklyn and Queens). This update conformed to the previous database design. In 2006, DoITT formalized the update frequency of  the planimetric database and aerial surveys. The aerial photography would be captured on a two-year cycle and the planimetrics a four-year cycle. With the first regularly-scheduled planimetric update to be based on the 2006 aerial photography.
 
+With each subsequent update, refinements have been made. New features and domains have been added,  obsolete features have been removed, features are captured in three dimensions, a seamless database is produced and the time between aerial capture and delivery of planimetrics shortened.
 <br>
 ####Currency<br>
 The source imagery for the current planimetric update was captured on the following dates: <br>• Manhattan - June 24, 2014<br>• The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>• Final delivery of all imagery – April 10, 2015<br><br>Using this orthoimagery, the planimetric base layers were updated citywide starting in March 2015 and were completed in February 2016.
