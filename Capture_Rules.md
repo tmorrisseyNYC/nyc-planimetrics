@@ -164,17 +164,17 @@ The following attribute information applies to all feature classes.  Additional 
 | **NAME** | pending |
 | **BIN** | Building Identification Number.<br><br>BINS were provdied for each building footprint from the <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a>.<br><br>In cases where there was no BIN for a building footprint, an "even million” BIN was assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
 | **CONSTURCTION_YEAR** | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code. |
-| **GEOM_SOURCE** | pending |
-| **LAST_MODIFY_BY** | pending |
-| **LAST_MODIFY_DATE** | pending |
-| **LAST_STATUS_TYPE** | pending |
-| **DOITT_ID** | unique ID assigned by DoITT  |
-| **LAST_STATUS_DATE** | pending |
+| **GEOM_SOURCE** | Source for the construction of the building geometry.   |
+| **LAST_MODIFY_BY** | User that last updated the geometry or attributes of a building feature. |
+| **LAST_MODIFY_DATE** | Date that a building feature's geometry or attributes was last modified |
+| **LAST_STATUS_TYPE** | The status of a building - "Constructed", "Marked for Construction", or "Marked for Demolition".  |
+| **DOITT_ID** | unique numeric ID assigned by DoITT  |
+| **LAST_STATUS_DATE** | Most recent data that a building status was changed |
 | **HEIGHT_ROOF** | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. |
-| **DOB_JOB_NUM** | pending |
-| **NUM_FLOORS** | Number of full and partial stories, starting from the ground floor. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
-| **BUILT_CODE** | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate. E = Estimate Blank = Year Built is not an Estimate |
-| **COMMENT** | pending |<br><br>
+| **DOB_JOB_NUM** | Job number from DOB_JOB table obtained from milestone reports  |
+| **NUM_FLOORS** | Number of full and partial stories, starting from the ground floor as derived from PLUTO. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
+| **BUILT_CODE** | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate. E = Estimate Blank = Year Built is not an Estimate |<br>
+<br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
