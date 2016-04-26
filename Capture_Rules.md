@@ -26,8 +26,7 @@ Based on models developed from the raw imagery and aerotriangulation, the planim
 | 2004 | 2001, 2002 | Add url | 
 | 2008 | 2006 | Add url | 
 | 2012 | 2010 | Add url | 
-<br><br>
-
+<br>
 ####Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)
