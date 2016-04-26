@@ -1,4 +1,4 @@
-###<p align="left">**NYC Planimetric Data Descriptions** </p>
+###<p align="left">**NYC Planimetric Database** </p>
 
 ####Purpose<br>
 This document is intended to provide a dual purpose. For the capture of the specific planimetric features, this document provides the rules for capture. Under what conditions features are captured, how they are captured and what exceptions apply. Since this document provides a wealth of information that would also benefit users working with the data, we decided to spend a bit more time formatting and presenting this document to further function as a secondary source of documentation. This document is not intended to replace the metadata included with the planimetric features but as a supplement. Lastly, this document orginated from previous planimetric updates that have evolved and been refined over each successive update and will be extended and maintained over the course of future updates.
@@ -18,6 +18,8 @@ The source imagery for the current planimetric update was captured on the follow
 
 Based on models developed from the raw imagery and aerotriangulation, the planimetric features were updated, and in some cases captured new, for the entire City. The project began March 2015 and was completed February 2016.
 <br>
+Previous planimetric captures are as follows:
+
 ####Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[General Attribute Information](#general-attribute-information)
