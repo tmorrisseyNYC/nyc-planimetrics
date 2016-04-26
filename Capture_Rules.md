@@ -173,8 +173,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **HEIGHT_ROOF** | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. |
 | **DOB_JOB_NUM** | pending |
 | **NUM_FLOORS** | Number of full and partial stories, starting from the ground floor. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
-| **BUILT_CODE** | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate. E = Estimate
-Blank = Year Built is not an Estimate |
+| **BUILT_CODE** | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate. E = Estimate Blank = Year Built is not an Estimate |
 | **COMMENT** | pending |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
