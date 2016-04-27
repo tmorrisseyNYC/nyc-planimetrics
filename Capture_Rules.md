@@ -296,7 +296,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Decks supported by posts extending into the water. |
-| **Capture Notes** | Updated piers, commercial piers, and docks. Used existing plnimetrics data as guide. |
+| **Capture Notes** | Updated piers, commercial piers, and docks. Used existing planimetrics data as guide. |
 | **Features Excluded** | Individual/private docks for recreational watercraft were not captured, unless they had already been captured as such in existing planimetric data. | 
 | **Feature View** | <br><p align="center">![Pier](Images/FeatureViews/Pier.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -308,7 +308,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Structures, usually comprised of stone, earth, or concrete, extending from shore to lessen erosion.  They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances. |
+| **Features Captured** | Structures, usually comprised of stone, earth, or concrete; extending from shore to lessen erosion.  They are often installed in continuation of river channels at their outlets or into docks, and outside their entrances. |
 | **Capture Notes** | Delineated at the water level. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Jetty](Images/FeatureViews/Jetty.png)</p> |
@@ -378,7 +378,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery. |
 | **Features Captured** | n/a |
-| **Capture Notes** | Updated all river whenever new conditions were encountered (e.g., due to piers, etc.).  Maintained internal divisions of river due to name change(s).  Existing hydrographic centerlines were used as reference but were not updated. |
+| **Capture Notes** | Updated all river edges whenever new conditions were encountered (e.g., due to piers, etc.).  Maintained internal divisions of river due to name change(s).  Existing hydrographic centerlines were used as reference but were not updated. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![River](Images/FeatureViews/River.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -462,7 +462,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | All medians that physically divide a roadbed were collected, which include medians, traffic islands, "Jersey Barriers", and painted areas that are used to separate the traffic flow. |
+| **Features Captured** | All medians that physically divide a roadbed were collected; which includes medians, traffic islands, "Jersey Barriers", and painted areas that are used to separate traffic flow. |
 | **Capture Notes** | Medians are sometimes paved, are normally elevated (have a curb), or have dirt or grass.<br><br>Medians can have sidewalks crossing them. In those cases, the outline of the largest area was incorporated into a single median feature.<br><br>The NYC online <a href="https://data.cityofnewyork.us/Transportation/Bike-Routes/umu5-zyd3">Bike Routes</a> data was used as a reference to identify potential new medians. Areas where the column ALLCLASSES is equal to I and "I,II" most often contained new medians. New Medians exist throughout the City regardless of these bike lane classifications. Thus, this was considered a supplemental source only. |
 | **Features Excluded** | The following features were not captured as medians:<br>&nbsp;&nbsp;&nbsp;• Barriers in front of buildings,<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to regulate traffic in construction areas, or<br>&nbsp;&nbsp;&nbsp;• Jersey Barriers used to block-off road access. |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -640,7 +640,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Outline of recreational areas which may be used for picnic or other recreational activities. Recreational areas must contain at least one of the following:<br>&nbsp;&nbsp;&nbsp;a) Benches,<br>&nbsp;&nbsp;&nbsp;b) Swings, or<br>&nbsp;&nbsp;&nbsp;c) Play area<br><br>Hardscape recreational areas were collected differently than softscape recreational areas, as follows:<br><br>• Hardscape recreational areas have either hard surfaces or sand. These areas were captured as discrete polygons following the edges of these areas precisely.<br><br>• Softscape recreational areas are grassy areas for football/baseball/other. These areas were captured as a single polygon (i.e., not discrete polygons) and snapped to other features (e.g. sidewalks, roadbed, hydro, etc.) where applicable.<br><br>When hardscapes and softscapes exists adjacent to one another, the entire area was captured by a single polygon. |
-| **Capture Notes** | These features are entirely outside the limits of NYC designated parks. Instead, these include areas such as Brooklyn Bridge Park and the High Line. |
+| **Capture Notes** | These features are entirely outside of NYC designated parks. |
 | **Features Excluded** | Medians with either benches, swings, or play areas were captured as a median and not a recreational area. |
 | **Feature Views** | <br><p align="center">![Recreation_Area_2](Images/FeatureViews/Recreation_Area_2.JPG)<br>This screenshot represents a hardscape recreational area.</p><br><p align="center">![Recreation_Area_2](Images/FeatureViews/Recreation_Area_3.JPG)<br>This screenshot represents a softscape recreational area.</p><br><p align="center">![Recreation_Area](Images/FeatureViews/Recreation_Area.JPG)<br>This screenshot represents a combined hardscape / softscape recreational area.</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -750,7 +750,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
 | **Features Captured** | Outline of tennis courts (hard surface only). |
 | **Capture Notes** | In cases of multiple courts, a division line was digitized along outer painted line (baseline and sideline) to partition individual courts.<br><br>The extent of these features only includes "in-bounds areas", they do not extend to the fence surrounding the tennis court area (or related "out-of-bounds areas"). |
-| **Features Excluded** | Tennis courts within NYC Parks were not captured.<br><br>Private tennis courts (e.g., on roofs of hotels, etc.) were not captured. | 
+| **Features Excluded** | Individual tennis courts within NYC Parks were not captured.<br><br>Private tennis courts (e.g., on roofs or hotels, etc.) were not captured. | 
 | **Feature View** | <br><p align="center">![Tennis](Images/FeatureViews/Tennis.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
@@ -865,7 +865,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | <p align="center">**Attribute**</p> | <p align="center">**Description**</p> |
-| **PARK_NAME** | pending |
+| **PARK_NAME** | Name of Park |
 | **PARKNUM** | Unique park identification number corresponding with PARK_NAME. |
 | **SYSTEM** | pending |
 | **LANDUSE** | pending |<br>
