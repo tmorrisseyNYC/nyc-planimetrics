@@ -961,7 +961,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 <br>
 #####1. BlockfaceID conflation from Pavement Edge to CSCL - Rule for missing CSCL
 
-• If no <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature existed on an existing roadbed with Pavement Edge, the production team broke down the Pavement Edge as needed on the approximated center of where a CSCL Centerline theoretically should be.  The team then assigned Left and Right (L/R) BlockfaceIDs to the Pavement Edge.  However, these BlockfaceIDs were not conflated to any CSCL segments (and these Pavement Edge features were flagged as having a BlockfaceID that was not conflated to CSCL).<br>
+• If no <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature existed on an existing roadbed with Pavement Edge, the production team broke down the Pavement Edge as needed on the approximated center of where a CSCL Centerline theoretically might go.  The team then assigned Left and Right (L/R) BlockfaceIDs to the Pavement Edge.  However, these BlockfaceIDs were not conflated to any CSCL segments (and these Pavement Edge features were flagged as having a BlockfaceID that was not conflated to CSCL).<br>
 
 **The following are examples of where CSCL is missing and PavementEdge exists.**
 
@@ -975,9 +975,9 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 
 #####2. BlockfaceID conflation from Pavement Edge to CSCL - Rules for Medians
 
-• When a <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> segment is bounded on one or both sides by a median, the longest edges of median Pavement Edge was assigned BlockfaceIDs, which were conflated onto applicable adjacent CSCL segments.<br>
+• When a <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> segment is bounded on one or both sides by a median, the longest edges of median Pavement Edge were assigned BlockfaceIDs, which were conflated onto applicable adjacent CSCL segments.<br>
 • Assigned BlockfaceIDs to Pavement Edge for all medians except painted medians.<br>
-• Conflated to CSCL where no Pavement Edge derived BlockfaceID takes priority, and there was a CSCL segment that corresponds to the long edge of the median.<br>
+• Conflated to CSCL where no Pavement Edge derived BlockfaceID takes priority, and there was a CSCL segment that corresponded to the long edge of the median.<br>
 • In cases where medians are within medians, the conflating median is the majority (containing) median.<br>
 • Pavement Edge features on a median were flagged as having a BlockfaceID that was not conflated to CSCL.<br>
 
