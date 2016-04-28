@@ -1248,7 +1248,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Walls that retain earth from falling on transportation features with a height of ten (10) feet or greater. |
+| **Features Captured** | Walls built to retain earth from falling on transportation features with a height of ten (10) feet or greater. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Walls in backyards used for landscape were not captured.<br><br>Walls in areas under construction (excavation) were not captured. | 
 | **Feature View** | <br><p align="center">![Retaining_Wall_1](Images/FeatureViews/Retaining_Wall_1.png)</p> |
@@ -1261,7 +1261,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
-| **Features Captured** | Walls that retain earth from falling on railroad bed. |
+| **Features Captured** | Walls built to retain earth from falling on railroad bed. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Retaining_Wall_2](Images/FeatureViews/Retaining_Wall_2.png)</p> |
