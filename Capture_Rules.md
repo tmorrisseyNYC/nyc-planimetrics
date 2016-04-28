@@ -1282,7 +1282,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Roadbed represents the interior polygon of pavement edge. The edges of these features are coincident with the linear feature class [Pavement Edge](#pavement-edge). |
-| **Capture Notes** | Converging roadbeds were not split when it crossing one another at different elevations (e.g. on ramps that cross each other). Roadbed was usually cut by [Median](#median) features (e.g., curb & grass) with the exception of painted, barrier and fence medians.<br><br>Special care was applied to ensure that highway shoulders was were not confused as sidewalk features. |
+| **Capture Notes** | Converging roadbeds were not split when it crossing one another at different elevations (e.g. on ramps that cross each other). Roadbed was usually cut by [Median](#median) features (e.g., curb & grass) with the exception of painted, barrier and fence medians.<br><br>Special care was applied to ensure that highway shoulders were not confused as sidewalk features. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Roadbed](Images/FeatureViews/Roadbed.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
