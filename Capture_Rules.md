@@ -1336,7 +1336,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | Significant changes (longer than 10 feet) along shorelines were updated to reflect new conditions. |
-| **Capture Notes** | When existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions, were not updated.<br><br>Streams greater than 8 feet that intersect bay/ocean were included as part of the shoreline.  When such conditions exist, those features were used and combined with [Hydrography](#hydrography). |
+| **Capture Notes** | Not updated when existing shoreline follows the general shape of the shoreline in the imagery, but is offset due to tidal conditions.<br><br>Streams greater than 8 feet that intersect bay/ocean were considered as part of the shoreline.  When such conditions exist, those features were used and combined with [Hydrography](#hydrography). |
 | **Features Excluded** | n/a |
 | **Feature View** | <br><p align="center">![Shoreline](Images/FeatureViews/Shoreline.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
