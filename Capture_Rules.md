@@ -908,7 +908,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Features Captured** | Updated all segments between pavement and other surfaces or features (i.e. Curbs, sidewalks, or grass).  |
 | **Capture Notes** | Each segment was captured as a continuous feature across a blockface (typically from one intersection to the next – along that side of the road). <br><br>The vertex between two segments was often located at the street corner. Edge of Pavement features are continuous across driveways, alleys, or access to parking. The one exception to this rule is where a street segment changes names (as determined by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> Centerline names) outside of any street intersections.  In these cases, the existing CSCL break (node) was used to create corresponding breaks in Pavement Edge segments.<br><br>For cul-de-sacs, two segments were created. The CSCL centerline was used to define the breakpoints of the Pavement Edge segments.<br><br>Dead end streets were terminatde where the tax map crosses the road.  Two segments were created on left and right sides of CSCL.<br><br>On highways, Pavement Edge corresponds to the ‘roadbed’ sub-feature class in [Roadbed](#roadbed), and does not include the shoulder. |
 | **Features Excluded** | n/a | 
-| **Feature Views** | <br><p align="center">![Road_Edge](Images/FeatureViews/Road_Edge.JPG)</p>This screenshot represents pavement edges at a large intersection.</p><br><p align="center">![PE_culdesac](Images/FeatureViews/PE_culdesac.JPG)</p>In a cul-de-sac, two segments would be required for the edge of pavement. One on either side of the roadbed assigned a left or right side based on the CSCL.</p><br><p align="center">![PE_T_int](Images/FeatureViews/PE_T_int.JPG)</p>Example of a 'T' intersection, one segment would be captured for edge at the top of 'T'.</p><br><p align="center">![PE_name_change](Images/FeatureViews/PE_name_change.JPG)</p>For roadbeds whose street name changes, the edge of pavement should be broken/split. The Node features from CSCL can be used as a guide.</p><br><p align="center">![PE_interchange](Images/FeatureViews/PE_interchange.JPG)</p>For interchanges, one segment that runs between the intersections would be captured for the edge of pavement. Note that one roadbed crosses over the other as it does in reality.</p> |
+| **Feature Views** | <br><p align="center">![Road_Edge](Images/FeatureViews/Road_Edge.JPG)</p>This screenshot represents pavement edges at a large intersection.</p><br><p align="center">![PE_culdesac](Images/FeatureViews/PE_culdesac.JPG)</p>In a cul-de-sac, two segments would be required for the edge of pavement. One on either side of the roadbed assigned a left or right side based on the CSCL.</p><br><p align="center">![PE_T_int](Images/FeatureViews/PE_T_int.JPG)</p>Example of a 'T' intersection, one segment would be captured for edge at the top of 'T'.</p><br><p align="center">![PE_name_change](Images/FeatureViews/PE_name_change.JPG)</p>For roadbeds whose street name changes, the edge of pavement should be broken/split. The Node features from CSCL can be used as a guide.</p><br><p align="center">![PE_interchange](Images/FeatureViews/PE_interchange.JPG)</p>For interchanges, one segment that runs between the intersections would be captured for the edge of pavement. Note that one roadbed crosses over the other as it does in reality.</p><br><p align="center">![PE_Alley](Images/FeatureViews/PE_Alley.JPG)</p> In the image above there are two alleys. The edge of pavement is captured as one segment between the intersections, extending over the alleys in question.</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1297,7 +1297,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Portion of roadbed where three (3) or more roadways meet up with one another.  Intersections were composed using features compiled and updated in [Pavement Edge](#pavement-edge). |
 | **Capture Notes** | Special care was applied at intersections with a slight offset to ensure that such areas were captured and attributed as an intersection.<br><br>The location where two alleys meet is considered an intersection and was captured as intersection roadbed.<br><br>Intersection polygons were created by establishing the shortest distance from the intersection node to [**Pavement Edge**](#pavement-edge). |
 | **Features Excluded** | When two (2) roadways form a “T”, the ending road was closed off so that the continuing roadbed edge forms a straight line (in [Pavement Edge](#pavement-edge)). Note, these "T" locations were not captured as intersection roadbed. | 
-| **Feature View** | <br><p align="center">![Intersection](Images/FeatureViews/Intersection.JPG)</p> |
+| **Feature View** | <br><p align="center">![Intersection](Images/FeatureViews/Intersection.JPG)</p>The image above represents a typical, four (4) way intersection.<br><br><p align="center">![Intersection_3way](Images/FeatureViews/Intersection_3way.JPG)</p>The image above represents a three (3) way intersection. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1323,7 +1323,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All shoulders on the roadway that may be used as a “break-down” area for vehicles or used by emergency vehicles to pass traffic. Shoulders are paved or gravel areas outside of the travel lane (as determined by paint markings) suitable for emergency vehicles to pass. |
 | **Capture Notes** | Shoulders were collected along highways (as determined by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> “RW_TYPE” = 2, 3, or 9 and excluding “SEGMENT_TYPE" = G or F.) only. <br><br>A curb separating an elevated paved surface from the roadway and between the roadway and a barrier median is a shoulder. <br><br>Painted areas are considered shoulders. Should a painted shoulder area be tapered, the entire shoulder was captured as long as the shape was at least 8 feet wide. |
 | **Features Excluded** | n/a | 
-| **Feature View** | <br><p align="center">![Shoulder](Images/FeatureViews/Shoulder.JPG)</p> |
+| **Feature View** | <br><p align="center">![Shoulder](Images/FeatureViews/Shoulder.JPG)</p>The image above represents shoulder alonge the north side of a highway.<br><br><p align="center">![Shoulder_2](Images/FeatureViews/Shoulder_2.JPG)</p>Example of Shoulder separated from the primary roadbed by a curb (top) and a gravel break-down area (bottom).<br><br><p align="center">![Shoulder_3](Images/FeatureViews/Shoulder_3.JPG)</p>Example of roadways with a shoulder and roadways with an extended roadbed.<br><br><p align="center">![Shoulder_4](Images/FeatureViews/Shoulder_4.JPG)</p>Examples of Shoulders separated by the travel way by pavement markings. Shoulder must be as wide as a car. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1406,7 +1406,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All Benches on sidewalks and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Benches within park boundaries were not captured, unless they are positioned within 10ft of sidewalk. | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1419,7 +1418,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All US Postal Mailboxes on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Must represnent feestanding public mail receptacle, typically painted blue. |
 | **Features Excluded** | Mailboxes built into a structure were not captured.<br><br>Mailboxes existing under any type of awning or overhead obstruction were not captured. | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1432,7 +1430,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All telephone booths on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Single or multiple phone locations were collected, some enclosed and some open. |
 | **Features Excluded** | n/a | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1445,7 +1442,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All munimeters on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Features must be free-standing units. |
 | **Features Excluded** | Curbside parking meters were not captured. | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1458,7 +1454,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | All ticket vending machines on sidewalk and within a 10ft buffer from sidewalk. |
 | **Capture Notes** | Features must be free-standing units. |
 | **Features Excluded** | n/a | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
@@ -1471,7 +1466,6 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Any fixed public seating on sidewalk, not included as a bench, were captured as street seats. |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Street seats within park boundaries were not captured. | 
-| **Feature View** | See Photo below. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
