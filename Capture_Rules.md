@@ -1039,7 +1039,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
 | **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. |
 | **Features Excluded** | Private plazas were not captured. | 
-| **Feature View** | <br><p align="center">![Plaza](Images/FeatureViews/Plaza.png)</p> |
+| **Feature View** | <br><p align="center">![Plaza_2](Images/FeatureViews/Plaza_2.JPG)</p>Example of Plaza showing vegetated area captured – adjacent to sidewalk.<br><br><p align="center">![Plaza_3](Images/FeatureViews/Plaza_3.JPG)</p>Example of large Pedestrian Plaza that was formerly a roadbed. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
