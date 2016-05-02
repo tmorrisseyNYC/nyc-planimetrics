@@ -1037,7 +1037,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery. Maps showing <a href="http://www1.nyc.gov/assets/planning/download/pdf/plans/pops-inventory/pops-inventory.pdf">Privately Owned Public Space ("POPS")</a>. |
 | **Features Captured** | Plazas are hard surfaced "parks" adjacent to public sidewalks or pavement edges. |
-| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. Additionally, potential plazas were also identified using CSCL (TRAFDIR=NV and BIKE_LANE<>1). |
+| **Capture Notes** | All public space plazas were captured or updated.  Where a plaza is connected to a sidewalk by steps, the steps were considered to be part of the plaza polygon. Planters at the edge of plaza were included as part of the plaza boundary.  Plazas cannot overlap medians or sidewalks. Walkways within the plaza were captured as part of the overall plaza polygon and were not considered a separate polygon. Additionally, potential plazas were also identified using <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> (TRAFDIR=NV and BIKE_LANE<>1). |
 | **Features Excluded** | Private plazas were not captured. | 
 | **Feature View** | <br><p align="center">![Plaza_2](Images/FeatureViews/Plaza_2.JPG)</p>Example of Plaza showing vegetated area captured – adjacent to sidewalk.<br><br><p align="center">![Plaza_3](Images/FeatureViews/Plaza_3.JPG)</p>Example of large Pedestrian Plaza that was formerly a roadbed. |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
@@ -1385,7 +1385,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 | **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | These featuers represent interior sidewalk centerlines for all interior sidewalk polygon features (not for the ROW Sidewalk). |
 | **Capture Notes** | The business use of this feature is to identify potential areas, outside of the public Right of Way (ROW), that could permit emergency vehicles through travel. Interior Sidewalk Centerlines were extended beyond the Interior Sidewalk Polygons when connecting to a <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> feature. |
-| **Features Excluded** | n/a | 
+| **Features Excluded** | [ROW Sidewalks].(#subtype-row-sidewalk) | 
 | **Feature View** | <br><p align="center">![Sidewalk_ln](Images/FeatureViews/Sidewalk_ln.png)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
