@@ -196,8 +196,8 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Created from 2014 imagery. |
-| **Features Captured** | Cooling Towers on top of Buildings. |
-| **Capture Notes** | . |
+| **Features Captured** | Cooling Towers found on the roofs of large buildings, and enclose large fans used for ventilation and cooling. |
+| **Capture Notes** | Only cooling towers greater than four (4) ft in diameter were captured. |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Cooling Towers](Images/FeatureViews/CoolingTower.JPG)</p> |
 | **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
