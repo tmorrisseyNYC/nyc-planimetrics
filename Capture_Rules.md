@@ -34,6 +34,7 @@ Based on models developed from the raw imagery and aerotriangulation, the planim
 &nbsp;&nbsp;&nbsp;&nbsp;**FEATURE CLASSES**<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Boardwalk**](#boardwalk)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Building Footprint**](#building-footprint)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Cooling Towers**](#cooling-towers)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Curb**](#curb)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Elevation**](#elevation)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Hydro Structure**](#hydro-structure)<br>
@@ -185,6 +186,21 @@ The following attribute information applies to all feature classes.  Additional 
 <br><p align="center">![Build_Foot_Diagram_2](Images/FeatureViews/Build_Foot_Diagram_2.png)</p>
 
 <br>
+[Back to Table of Contents](#table-of-contents)
+
+<br>
+# COOLING TOWERS
+
+**Geometry Type:** Polygon
+
+|     |     |
+| --- | --- |
+| **Source Databases** | Created from 2014 imagery. |
+| **Features Captured** | Cooling Towers on top of Buildings. |
+| **Capture Notes** | . |
+| **Features Excluded** | n/a | 
+| **Feature View** | <br><p align="center">![Cooling Towers](Images/FeatureViews/CoolingTower.JPG)</p> |
+| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
