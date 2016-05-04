@@ -560,11 +560,11 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
-**Subtypes:** [Billboard](#subtype-billboard), [Sign Gantry](#subtype-sign-gantry), and [Toll Plaza](#subtype-toll-plaza)
+**Subtypes:** [Billboard](#subtype-large-billboard-and-signs), [Sign Gantry](#subtype-sign-gantry), and [Toll Plaza](#subtype-toll-area)
 
 [**Attributes**](#misc-struct-poly-attributes)<br>
 <br>
-### Subtype: BILLBOARD
+### Subtype: LARGE BILLBOARD AND SIGNS
 
 |     |     |
 | --- | --- |
@@ -590,7 +590,7 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-### Subtype: TOLL PLAZA
+### Subtype: TOLL AREA
 
 |     |     |
 | --- | --- |
@@ -904,7 +904,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
+| **Source Databases** | Updated from 2014 imagery, and existing planimetrics. |
 | **Features Captured** | Updated all segments between pavement and other surfaces or features (i.e. Curbs, sidewalks, or grass).  |
 | **Capture Notes** | Each segment was captured as a continuous feature across a blockface (typically from one intersection to the next – along that side of the road). <br><br>The vertex between two segments was often located at the street corner. Edge of Pavement features are continuous across driveways, alleys, or access to parking. The one exception to this rule is where a street segment changes names (as determined by <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> Centerline names) outside of any street intersections.  In these cases, the existing CSCL break (node) was used to create corresponding breaks in Pavement Edge segments.<br><br>For cul-de-sacs, two segments were created. The CSCL centerline was used to define the breakpoints of the Pavement Edge segments.<br><br>Dead end streets were terminatde where the tax map crosses the road.  Two segments were created on left and right sides of CSCL.<br><br>On highways, Pavement Edge corresponds to the ‘roadbed’ sub-feature class in [Roadbed](#roadbed), and does not include the shoulder. |
 | **Features Excluded** | n/a | 
@@ -917,7 +917,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
+| **Source Databases** | Updated from 2014 imagery, and existing planimetrics. |
 | **Features Captured** | The outer-edge of all paved features associated with airports, including runways, taxiways and aprons. |
 | **Capture Notes** | The features often share an edge with a building feature. Airport features were collected up to the surrounding fence or gates. |
 | **Features Excluded** | n/a | 
@@ -930,7 +930,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery, existing planimetrics, and Parks database. |
+| **Source Databases** | Updated from 2014 imagery, and existing planimetrics. |
 | **Features Captured** | These features represent a narrow unnamed street that allows access to buildings/garages other than from the road. When captured, these features were snapped to the road edge. |
 | **Capture Notes** | These feature typically allow access to the interior of a block or to the back of a house.  As a general rule of thumb, the <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> value of: RW_TYPE=10 was used to determine the alley pavement edge.  However, there were still alleys captured that did not have this field attribute value from the CSCL. |
 | **Features Excluded** | n/a | 
