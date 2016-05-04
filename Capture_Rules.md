@@ -560,7 +560,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 **Geometry Type:** Polygon
 
-**Subtypes:** [Billboard](#subtype-large-billboard-and-signs), [Sign Gantry](#subtype-sign-gantry), and [Toll Plaza](#subtype-toll-area)
+**Subtypes:** [Large Billboard and Signs](#subtype-large-billboard-and-signs), [Sign Gantry](#subtype-sign-gantry), and [Toll Area](#subtype-toll-area)
 
 [**Attributes**](#misc-struct-poly-attributes)<br>
 <br>
