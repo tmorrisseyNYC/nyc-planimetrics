@@ -1,5 +1,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Point**](#street-furniture-point)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Poly**](#street-furniture-poly)<br># STREET FURNITURE POINT
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Poly**](#street-furniture-poly)<br>
+
+# STREET FURNITURE POINT
 
 **Geometry Type:** Point
 
