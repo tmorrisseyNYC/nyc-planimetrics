@@ -560,16 +560,6 @@ The following attribute information applies to all feature classes.  Additional 
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-#### Median Attributes
-
-|     |     |
-| --- | --- |
-| <p align="center">**Attribute**</p> | <p align="center">**Description**</p> |
-| **STREET_NAME** | pending |<br><br>
-
-[Back to Table of Contents](#table-of-contents)
-
-<br>
 # MISC STRUCT POLY
 
 **Geometry Type:** Polygon
