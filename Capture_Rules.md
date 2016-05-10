@@ -57,7 +57,7 @@ Based on models developed from the raw imagery and aerotriangulation, the planim
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Street Furniture Poly**](#street-furniture-poly)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Swimming Pool**](#swimming-pool)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Transport Structure**](#transport-structure)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Under Construction Unknown**](#under-construction-unknown)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[**Under Construction**](#under-construction)
 
 <br>
 # Imagery and Data Specifications
@@ -1694,7 +1694,7 @@ This section includes the following capture rules pertaining to BlockfaceID conf
 [Back to Table of Contents](#table-of-contents)
 
 <br>
-# UNDER CONSTRUCTION UNKNOWN
+# UNDER CONSTRUCTION
 
 **Geometry Type:** Polygon
 
