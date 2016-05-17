@@ -161,7 +161,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **Capture Notes** | Skybridges were populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned an “even million" BIN during capture. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | n/a | 
 | **Feature View** | <br><p align="center">![Skybridge](Images/FeatureViews/Skybridge.png)</p> |
-| **Photo** | <br><p align="center">![](Images/Photos/)</p> |<br><br>
+| **Photo** | <br><p align="center">![](Images/Photos/skybridge.jpg)</p> |<br><br>
 [Back to Table of Contents](#table-of-contents)
 
 <br>
