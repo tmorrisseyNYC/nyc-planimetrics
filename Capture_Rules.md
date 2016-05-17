@@ -9,10 +9,11 @@ One of the core functions of the NYC Department of Information Technology and Te
 ####Background<br>
 Planimetric mapping is the capture of geographic features from aerial survey (i.e., capture of aerial photography) that are traditionally mapped in two dimensions and are therefore exclusive of elevation. Quite simply these are the visible features that can be digitized from aerial photography. Often referred to as planimetric features or simply planimetics, these geographic features in their sum total essentially represent the base map data (i.e., layers) for a specific area.
 NYC DoITT first developed a planimetric database in 2000. The data was captured from the first ‘modern’ aerial survey of the New York City that took place in 1996. Referred to at that time as the NYC Landbase, components of this effort were the establishment of:
-• a ‘database design’ (the delivery was ArcInfo coverages)
-• coverage parameters (e.g., scale, projection, precision, fuzzy tolerance and dangle length)
-• the specific features to be captured
-• and a classification scheme (i.e., feature codes)
+<br>
+• a ‘database design’ (the delivery was ArcInfo coverages) <br>
+• coverage parameters (e.g., scale, projection, precision, fuzzy tolerance and dangle length) <br>
+• the specific features to be captured <br>
+• and a classification scheme (i.e., feature codes) <br>
 The delivery of the data was by 2,500′ x 2,500′ tiles, which directly corresponded to the orthophotography tiles. 
 <br>
 ####Currency<br>
