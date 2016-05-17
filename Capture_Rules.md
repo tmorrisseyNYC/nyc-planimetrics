@@ -1,13 +1,19 @@
 ###<p align="left">**NYC Planimetric Database** </p>
 
 ####Purpose<br>
-This document is intended to provide a dual purpose. For the capture of the specific planimetric features, this document provides the rules for capture. Under what conditions features are captured, how they are captured and what exceptions apply. Since this document provides a wealth of information that would also benefit users working with the data, we decided to spend a bit more time formatting and presenting this document to further function as a secondary source of documentation. This document is not intended to replace the metadata included with the planimetric features but as a supplement. Lastly, this document orginated from previous planimetric updates that have evolved and been refined over each successive update and will be extended and maintained over the course of future updates.
+The purpose of this document is twofold. First, it is intended to define the capture rules for each planimetric feature collected as part of the planimetric update project. As such, this document is meant to clarify questions regarding how the features were captured, provide feature descriptions, and illustrate any exceptions that may apply. Second, since this document provides a wealth of information that would benefit users working with the data, we decided to make it accessible as a secondary source of documentation. This document is not intended to replace the metadata included with the planimetric features but rather to function as an additional source of information. Lastly, the documentation originated from previous planimetric updates. The documentation has evolved and has been refined over each successive planimetric update cycle; and will continue to be extended and maintained over the course of future updates.
 <br>
 ####Introduction<br>
-One of the core functions of the NYC Department of Information Technology and Telecommunications (DoITT) GIS group is to maintain and distribute an accurate 'basemap' for NYC. Collectively, the basemap includes the digitial orthophotography and planimetric features. The basemap provides the foundation upon which virtually all other geospatial data within New York government is registered. Ensuring its completeness and accuracy is fundamental to the Group’s core mission.
+One of the core functions of the NYC Department of Information Technology and Telecommunications (DoITT) GIS group is to maintain and distribute an accurate 'basemap' for NYC. Collectively, the basemap includes the digital orthophotography and planimetric features. The basemap provides the foundation upon which virtually all other geospatial data within New York government is registered. Ensuring its completeness and accuracy is fundamental to the Group’s core mission.
 <br>
 ####Background<br>
-Planimetric mapping is the capture of geographic features from aerial survey (i.e., capture of aerial photography). Planimetrics are traditionally mapped in two dimensions and therefore are exclusive of elevation.  Quite simply planimetrics are the visible features that can be digitized from aerial photography. The planimetric database is composed of individual features each repressenting a different geographic or human-made phenomena. In their sum total, the planimetrics represent the base map for New York City.
+Planimetric mapping is the capture of geographic features from aerial survey (i.e., capture of aerial photography) that are traditionally mapped in two dimensions and are therefore exclusive of elevation. Quite simply these are the visible features that can be digitized from aerial photography. Often referred to as planimetric features or simply planimetics, these geographic features in their sum total essentially represent the base map data (i.e., layers) for a specific area.
+NYC DoITT first developed a planimetric database in 2000. The data was captured from the first ‘modern’ aerial survey of the New York City that took place in 1996. Referred to at that time as the NYC Landbase, components of this effort were the establishment of:
+• a ‘database design’ (the delivery was ArcInfo coverages)
+• coverage parameters (e.g., scale, projection, precision, fuzzy tolerance and dangle length)
+• the specific features to be captured
+• and a classification scheme (i.e., feature codes)
+The delivery of the data was by 2,500′ x 2,500′ tiles, which directly corresponded to the orthophotography tiles. 
 <br>
 ####Currency<br>
 The source imagery for the current planimetric update was captured on the following dates: 
