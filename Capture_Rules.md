@@ -131,7 +131,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery.<br><br>The Used an <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
+| **Source Databases** | Updated from 2014 imagery.<br><br>The <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “even million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
@@ -932,7 +932,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery, and existing planimetrics. |
+| **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
 | **Features Captured** | These features represent a narrow unnamed street that allows access to buildings/garages other than from the road. When captured, these features were snapped to the road edge. |
 | **Capture Notes** | These feature typically allow access to the interior of a block or to the back of a house.  As a general rule of thumb, the <a href="https://data.ny.gov/City-Government/NYC-Street-Centerline-CSCL-/exjm-f27b/about">CSCL</a> value of: RW_TYPE=10 was used to determine the alley pavement edge.  However, there were still alleys captured that did not have this field attribute value from the CSCL. |
 | **Features Excluded** | n/a | 
