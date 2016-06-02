@@ -34,7 +34,7 @@ Based on models developed from the raw imagery and aerotriangulation, the planim
 |     |     |     |
 | --- | --- | --- |
 | <p align="left">**Planimetric Delivery**</p> | <p align="left">**Year of Imagery**</p> | <p align="left">**Download Link**</p> |
-| 2000 | 1996 | [download https://data.cityofnewyork.us/Transportation/NYC-Planimetrics-Historic-1996-/xd8h-7j2h] | 
+| 2000 | 1996 | <p> download <a> https://data.cityofnewyork.us/Transportation/NYC-Planimetrics-Historic-1996-/xd8h-7j2h] </a></p> | 
 | 2004 | 2001, 2002 | Add url | 
 | 2008 | 2006 | Add url | 
 | 2012 | 2010 | Add url | 
