@@ -19,7 +19,7 @@ The delivery of the data was by 2,500′ x 2,500′ tiles, which directly corres
 ####Updates<br>
 A subsequent ad-hoc update to the planimetric database was done in 2004. This update was based on aerial surveys from 2001 (Manhattan and Staten Island) and 2002 (Bronx, Brooklyn and Queens). This update conformed to the previous database design. In 2006, DoITT formalized the update frequency of the planimetric database and aerial surveys. The aerial photography would be captured on a two-year cycle and the planimetrics a four-year cycle. The first regularly-scheduled planimetric update was based on the 2006 aerial photography and delieverd in 2008.
 
-With each subsequent update, refinements have been made. New features and domains have been added, obsolete features have been removed, features are captured in three dimensions, a seamless database is produced and the time between aerial capture and delivery of the planimetrics shortened. For a complete list of the captures, see below. 
+With each subsequent update, refinements have been made. New features and domains have been added, obsolete features have been removed, features have been captured in three dimensions, a seamless database has been produced and the time between aerial capture and delivery of the planimetrics has been shortened. For a complete list of the captures, see below. 
 <br>
 ####Currency<br>
 The source imagery for the current planimetric update was captured on the following dates: 
@@ -38,6 +38,7 @@ Based on models developed from the raw imagery and aerotriangulation, the planim
 | 2004 | 2001, 2002 | [download] (https://data.cityofnewyork.us/Transportation/NYC-Planimetrics-Historic-2004-/49mj-4gmb) | 
 | 2008 | 2006 | [download] (https://data.cityofnewyork.us/Transportation/NYC-Planimetrics-2008/dja4-zgtf) | 
 | 2012 | 2010 | [download] (https://data.cityofnewyork.us/Transportation/NYC-Planimetrics-2012/3nr6-bnks) | 
+| 2016 | 2014 | [download] (https://data.cityofnewyork.us/Transportation/NYC-Planimetrics/wt4d-p43d) | 
 <br>
 ####Table of Contents
 &nbsp;&nbsp;&nbsp;&nbsp;[Imagery and Data Specifications](#imagery-and-data-specifications)<br>
