@@ -145,7 +145,7 @@ The following attribute information applies to all feature classes.  Additional 
 |     |     |
 | --- | --- |
 | **Source Databases** | Updated from 2014 imagery.<br><br>The <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
-| **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “even million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
+| **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
 | **Feature View** | <br><p align="center">![Build_UC](Images/FeatureViews/Build_UC.png)</p> |
@@ -174,7 +174,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **HEIGHT_ROOF** | Building roof height was calculated as the difference between ground elevation of the building and the roof elevation value.  The roof elevation is the highest point of the roof itself (see [BUILDING ELEVATION](#subtype-building-elevation) in the [ELEVATION](#elevation) Feature Class). See [Building Footprint Diagrams](#building-footprint-diagrams) below for additional details. |
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 | **NAME** | Name of building. |
-| **BIN** | Building Identification Number.<br><br>BINS are assigned by the Department of City Planning (DCP). DoITT inserts an assigned BIN into its respective footprint on an ongoing basis through interagency coordination. <br><br>For cases where a BIN has not been assigned or cannot be determined, a "million” BIN is inserted as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
+| **BIN** | A Building Identification Number (BIN)<br><br> is a unique identifier assigned by the Department of City Planning (DCP) for buildings in Geosupport. DoITT inserts assigned BINs into their respective footprints on an ongoing basis through interagency coordination. <br><br>For cases where a BIN has not been assigned or cannot be determined, a "million” BIN is inserted as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
 | **CONSTURCTION_YEAR** | Derived from PLUTO. The year construction of the building was completed. See "BuiltCode" field for details on accuracy. |
 | **GEOM_SOURCE** | Source for the construction of the building geometry.   |
 | **LAST_MODIFY_BY** | User that last updated the geometry or attributes of a building feature. |
