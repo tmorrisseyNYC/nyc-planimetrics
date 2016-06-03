@@ -157,7 +157,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery. |
+| **Source Databases** | Updated from 2014 imagery and PLUTO |
 | **Features Captured** | Elevated walkways that connect buildings were captured as separate building polygons and coded as “Skybridge”. |
 | **Capture Notes** | Skybridges were populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned an “even million" BIN during capture. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | n/a | 
@@ -175,7 +175,7 @@ The following attribute information applies to all feature classes.  Additional 
 | **GROUND_ELEVATION** | Lowest Elevation at the building ground level.  Calculated from LiDAR or photogrammetrically. |
 | **NAME** | Name of building. |
 | **BIN** | Building Identification Number.<br><br>BINS were provdied for each building footprint from the <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a>.<br><br>In cases where there was no BIN for a building footprint, an "even million” BIN was assigned as follows:<br>• 1000000 for Manhattan,<br>• 2000000 for Bronx,<br>• 3000000 for Brooklyn,<br>• 4000000 for Queens,<br>• 5000000 for Staten Island |
-| **CONSTURCTION_YEAR** | The year construction of the building was completed. If the year of construction is an estimate, it is indicated in the "BuiltCode" field with an E code. |
+| **CONSTURCTION_YEAR** | Derived from PLUTO. The year construction of the building was completed. See "BuiltCode" field for details on accuracy. |
 | **GEOM_SOURCE** | Source for the construction of the building geometry.   |
 | **LAST_MODIFY_BY** | User that last updated the geometry or attributes of a building feature. |
 | **LAST_MODIFY_DATE** | Date that a building feature's geometry or attributes was last modified. |
@@ -184,8 +184,8 @@ The following attribute information applies to all feature classes.  Additional 
 | **LAST_STATUS_DATE** | Most recent date that a building status was changed. |
 | **HEIGHT_ROOF** | Building Height is calculated as the difference from the building elevation from the Elevation point feature class and the elevation in the interpolated TIN model. This value then is the height of the roof above the ground elevation, NOT its height above sea level. |
 | **DOB_JOB_NUM** | Job number from DOB_JOB table obtained from milestone reports.  |
-| **NUM_FLOORS** | Number of full and partial stories, starting from the ground floor as derived from PLUTO. If a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
-| **BUILT_CODE** | A code indicating whether the year the building was built (CONSTRUCTION_YEAR) was an estimate. E = Estimate Blank = Year Built is not an Estimate |<br>
+| **NUM_FLOORS** | Derived from PLUTO. Indicates the number of full and partial stories starting from the ground floor. For cases where a lot has more than one building, the number of stories in the primary building on the tax lot is applied to all buildings on the lot.|
+| **BUILT_CODE** | Derived from PLUTO. A code indicating whether the year the building was built (CONSTRUCTION_YEAR) is an estimate. E = Estimate; Blank = Year Built is not an Estimate |<br>
 <br>
 [Back to Table of Contents](#table-of-contents)
 
