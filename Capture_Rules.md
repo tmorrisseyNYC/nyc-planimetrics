@@ -21,14 +21,14 @@ A subsequent ad-hoc update to the planimetric database was done in 2004. This up
 
 With each subsequent update, refinements have been made. New features and domains have been added, obsolete features have been removed, features have been captured in three dimensions, a seamless database has been produced and the time between aerial capture and delivery of the planimetrics has been shortened. For a complete list of the captures, see below. 
 <br>
-####Currency<br>
+####Currenct Imagery<br>
 The source imagery for the current planimetric update was captured on the following dates: 
 <br>
 • Manhattan - June 24, 2014<br>
 • The Bronx, Brooklyn, Queens and Staten Island - April 1st through April 25th, 2014<br>
 • Final delivery of all imagery – April 10, 2015<br>
 
-Based on models developed from the raw imagery and aerotriangulation, the planimetric features were updated, and in some cases captured new, for the entire City. The project began March 2015 and was completed February 2016.
+Based on the stereo models developed from the raw imagery and aerotriangulation, the planimetric features were updated or new features captured for the entire City. The project began March 2015 and was completed February 2016.
 <br>
 ####Previous Captures <br>
 |     |     |     |
@@ -95,7 +95,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery. |
+| **Source Databases** | Current imagery - see intro for specific dates. |
 | **Features Captured** | Boardwalks along beachfront. |
 | **Capture Notes** | Maintain beach outline/shoreline (do not adjust for tidal differences between imagery flyover dates). |
 | **Features Excluded** | n/a | 
@@ -118,7 +118,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery.<br><br>Current - as of update - buildng footprint database, which was used as the basis of the update. |
+| **Source Databases** | Current imagery - see intro for specific dates.<br><br>Current - as of update - buildng footprint database, which was used as the basis of the update. |
 | **Features Captured** | All buildings with well-defined walls and roofs that are >400 square feet and taller than 12 feet were captured.<br><br>Buildings with <12 feet height but with BIN were captured.<br><br>Buildings with BIN but <400 square feet were also captured. |
 | **Capture Notes** | Buildings with flat roofs were captured on roof outline, capturing the largest outline (excluding overhangs, awnings, construction features, etc.).<br><br>Buildings with pitched roofs were captured on the building footprint.<br><br>Carports, when attached to main building, were included in the outline. Interior divisions within buildings were not captured (used existing building layer and BIN as guide).<br><br>Parcel data and BIN was used as guidance for collection. Where the parcel data indicated that a building should be two or more geometries AND there was NO physical indication, the building was split using the parcel lines. Where the parcel data indicated that a building should be two or more geometries AND there was a physical indication, the building was split using the physical indications. If an existing building was split into several new buildings, the original BIN was retained in only one of the new buildings (ideally the largest) and the new buildings were assigned an "million" BIN (as a placeholder). BINs can not be duplicated. <br><br>Building Footprints abutting one another on a single tax lot, but each having a unique BIN, were flagged and verified during review.<br><br>If a building was demolished (i.e., as evidenced in the imagery), the BIN was also deleted and was not used for any new building geometry.<br><br>Small triangles denote a permit is out to construct a new building at the location.  These small triangles were added by DoITT building editors. These triangles should be removed when new buildings are added. Therefore if a new building was constructed in the new orthos, the building was captured,  the attributes from triangle to building were transferred to the new building, and the triangle was deleted. If no new building was visible on the orthos, the triangles were left in the data.<br><br>An “million" BIN was assigned to buildings not existing in the source database.<br><br>For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | The following features were not captured:<br>•  temporary trailers, tents, or roofs at gas stations (over pumps).<br>• roofs (overhang) to gas stations, unless connected to building.<br>• movable jet bridge for access to aircraft.<br>• awnings, scaffolds, or sidewalk sheds. | 
@@ -131,7 +131,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery.<br><br>Used an <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes).<br><br>Used DOF TaxMap as a reference. |
+| **Source Databases** | Current imagery - see intro for specific dates. <br><br>Used an <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes).<br><br>Used DOF TaxMap as a reference. |
 | **Features Captured** | All garages were captured, regardless of size.  To be considered a garage, the structure must have a driveway (paved or unpaved) for road  access, and be able to store one or more cars. |
 | **Capture Notes** | Special care was applied to ensure sheds were not confused with garages. In general, standard dimensions for detached garages are approximately 12’x20’ or 14’x20’.<br><br>The Parcel layer was used to place garages within parcel or at parcel boundary – being sure to check for special cases where parcel boundary clearly crosses a garage. In these cases, either the garage was split using physical features, or the property line was used where there was no distinguishing physical feature.<br><br>An “million" BIN was assigned to garages not existing in the source database. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | Small tool or storage sheds in backyards which have no visible car access were not captured. | 
@@ -144,7 +144,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery.<br><br>The <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
+| **Source Databases** | Current imagery - see intro for specific dates. <br><br>The <a href="https://data.cityofnewyork.us/Housing-Development/Building-Footprints/tb92-6tj8">existing DoITT building database</a> was used for reference and for BIN values. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
@@ -157,7 +157,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery and PLUTO |
+| **Source Databases** | Current imagery - see intro for specific dates. <br><br> PLUTO </br></br> |
 | **Features Captured** | Elevated walkways that connect buildings were captured as separate building polygons and coded as “Skybridge”. |
 | **Capture Notes** | Skybridges were populated with the “HEIGHT_ROOF” attribute only (not Ground Elevation).<br><br>These were assigned an “million" BIN during capture. For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Features Excluded** | n/a | 
@@ -221,7 +221,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery. |
+| **Source Databases** | Current imagery - see intro for specific dates. |
 | **Features Captured** | All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. |
 | **Capture Notes** | This is a new feature class in the 2014 collection.  Prior to the 2014 capture, Curbs were a subset of the Pavement Edge feature class but have been broken out into a seperate feature class in 2014. |
 | **Features Excluded** | Curbs inside Parking lots were not captured. | 
@@ -246,7 +246,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Updated from 2014 imagery and existing planimetrics. |
+| **Source Databases** | Current imagery - see intro for specific dates. and existing planimetrics. |
 | **Features Captured** | Elevation points were captured for all building footprint features. |
 | **Capture Notes** | Elevation of the highest portion of the roof of a building, excluding antennas and roof fixtures such as air conditioning (AC), elevator shafts, chimneys, etc.<br><br>Elevation values were transferred to each building footprint to calculate the building height attribute. |
 | **Features Excluded** | n/a | 
