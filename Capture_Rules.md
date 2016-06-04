@@ -144,7 +144,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Sources** | Current imagery - see intro for specific dates.<br>Buildng footprint database. <b> DOF Digital Tax Map database |
+| **Sources** | Current imagery - see intro for specific dates.<br>Buildng footprint database. <br> DOF Digital Tax Map database |
 | **Features Captured** | Buildings that were under construction in the imagery and had outside walls that clearly indicated the shape of the building were captured.<br><br>An “million" BIN was assigned to buildings (under construction) not existing in the source database.  For more information regarding BIN, see [Building Footprint Attributes](#building-footprint-attributes). |
 | **Capture Notes** | n/a |
 | **Features Excluded** | Under construction buildings were not captured when only the foundation was visible or if the building was being destroyed. | 
