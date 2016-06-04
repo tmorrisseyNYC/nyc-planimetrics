@@ -666,7 +666,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Sources** | Current imagery - see intro for specific dates. <br> Previous planimetric database </br> <br> DOF Digital Tax Map</br> |
+| **Sources** | Current imagery - see intro for specific dates. <br> Previous planimetric database <br>DOF Digital Tax Map |
 | **Features Captured** | These features represent a vacant lot where a building could potentially be built and is associated with a tax lot polygon. |
 | **Capture Notes** | "Vacant" is defined herein as an area containing no structures.<br><br>The Digital Tax Map (DTM) and currently captured planimetrics ([Building Footprints](#building-footprints)) were used to determine the location of the vacant areas.<br><br>The actual shape of each vacant aras was captured using physical features that typically form the boundary of a property such as fences, hedgerow, etc.<br><br>Vacant Areas extend to sidewalk or roadbed edge.<br><br>As a general rule of thumb, vacant lots were required to have roadway frontage, and not actively used for private or public entities (e.g., backyard or commmunity garden). |
 | **Features Excluded** | n/a | 
