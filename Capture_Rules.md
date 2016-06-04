@@ -21,7 +21,7 @@ A subsequent ad-hoc update to the planimetric database was done in 2004. This up
 
 With each subsequent update, refinements have been made. New features and domains have been added, obsolete features have been removed, features have been captured in three dimensions, a seamless database has been produced and the time between aerial capture and delivery of the planimetrics has been shortened. For a complete list of the captures, see below. 
 <br>
-####Currenct Imagery<br>
+####Current Imagery<br>
 The source imagery for the current planimetric update was captured on the following dates: 
 <br>
 • Manhattan - June 24, 2014<br>
@@ -95,7 +95,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Source Databases** | Current imagery - see intro for specific dates. |
+| **Source Databases** | Current imagery - see intro for specific dates. <br> Previous planimetrics </br> |
 | **Features Captured** | Boardwalks along beachfront. |
 | **Capture Notes** | Maintain beach outline/shoreline (do not adjust for tidal differences between imagery flyover dates). |
 | **Features Excluded** | n/a | 
