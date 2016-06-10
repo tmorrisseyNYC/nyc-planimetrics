@@ -972,7 +972,7 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
 | **[Edge Of Pavement](#subtype-edge-of-pavement)** | <p align="center">2260</p> |
-| **[Airport Runway](#subtype-airport-runway)** | <p align="center">2465</p> |
+| **[Airport Runway](#subtype-airport-runway)** | <p align="center">2230</p> |
 | **[Alley](#subtype-alley)** | <p align="center">2270</p> |
 
 [**Attributes**](#pavement-edge-attributes)<br>
