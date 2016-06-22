@@ -112,9 +112,9 @@ The following attribute information applies to all feature classes.  Additional 
 | --- | --- |
 | <p align="center">**Subtype**</p> | <p align="center">**Feature Code**</p> |
 | **[Building](#subtype-building)** | <p align="center">2100</p> |
-| **[Garage](#subtype-garage)** | <p align="center">2110</p> |
+| **[Sky Bridge](#subtype-skybridge)** | <p align="center">2110</p> |
 | **[Building Under Construction](#subtype-building-uc-building-under-construction)** | <p align="center">5100</p> |
-| **[Sky Bridge](#subtype-skybridge)** | <p align="center">5110</p> |
+| **[Garage](#subtype-garage)** | <p align="center">5110</p> |
 
 [**Attributes**](#building-footprint-attributes)<br>
 
