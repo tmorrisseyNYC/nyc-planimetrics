@@ -212,7 +212,7 @@ The following attribute information applies to all feature classes.  Additional 
 
 |     |     |
 | --- | --- |
-| **Sources** | Current imagery - see intro for specific dates. <br> Previous planimetric database |
+| **Sources** | Current imagery - see intro for specific dates. <br> New capture. |
 | **Features Captured** | Cooling Towers found on the roofs of large buildings that enclose large fans used for ventilation and cooling. |
 | **Capture Notes** | Only cooling towers greater than four (4) ft in diameter were captured. |
 | **Features Excluded** | n/a | 
